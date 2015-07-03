@@ -20,6 +20,9 @@
     "tests"
   ],
   "dependencies": {
-    "bookingbug-angular-core": "0.0.29"
+    "bookingbug-angular-core": "0.0.29",
+    "angular-recaptcha": "~2.2.3",
+    "angulartics": "~0.17.2",
+    "angular-slick": "https://github.com/BookingBug/angular-slick.git#~0.2.2"
   }
 }
