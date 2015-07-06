@@ -7151,7 +7151,7 @@ Copyright (c) 2014 Daniel Eden
     display: block;
     margin: 0 auto; }
   #bb #loading_icon #wait_graphic {
-    background: url("BB_wait.gif");
+    background: url("images/BB_wait.gif");
     width: 118px;
     height: 118px; }
   #bb .powered-by {
