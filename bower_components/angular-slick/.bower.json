@@ -1,0 +1,38 @@
+{
+  "name": "angular-slick",
+  "version": "0.2.2",
+  "main": "dist/slick.js",
+  "ignore": [
+    "app",
+    ".editorconfig",
+    ".gitattributes",
+    ".gitignore ",
+    ".jshintrc",
+    "Gruntfile.js",
+    "README.md ",
+    "bower.json",
+    "package.json"
+  ],
+  "keywords": [
+    "angular",
+    "slick",
+    "carousel"
+  ],
+  "dependencies": {
+    "angular": "~1.3.0",
+    "slick-carousel": "~1.5.5"
+  },
+  "author": {
+    "name": "Vasyl Stanislavchuk"
+  },
+  "homepage": "https://github.com/BookingBug/angular-slick",
+  "_release": "0.2.2",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.2.2",
+    "commit": "bd3c36b756df904ecf9eb74b1e45798e325a3365"
+  },
+  "_source": "https://github.com/BookingBug/angular-slick.git",
+  "_target": "~0.2.2",
+  "_originalSource": "https://github.com/BookingBug/angular-slick.git"
+}
