@@ -7716,7 +7716,7 @@ Copyright (c) 2014 Daniel Eden
     padding-bottom: 10px; }
     #bb #bb-event-list .date-list-item .btn-secondary, #bb [bb-events] .date-list-item .btn-secondary {
       width: 120px; }
-  #bb #bb-event-list .events, #bb [bb-events] .events {
+  #bb #bb-event-list .event-list-heading, #bb [bb-events] .event-list-heading {
     padding-top: 10px;
     margin-bottom: 20px; }
   #bb #bb-event-list .event-datetime, #bb [bb-events] .event-datetime {
@@ -7726,10 +7726,6 @@ Copyright (c) 2014 Daniel Eden
       display: block; }
     #bb #bb-event-list .event-datetime .event-time, #bb [bb-events] .event-datetime .event-time {
       font-size: 1.7em; }
-  #bb #bb-event-list .bb-filter-summary, #bb [bb-events] .bb-filter-summary {
-    border-top: none;
-    padding: 10px 0;
-    margin-bottom: 0; }
   #bb #bb-event-list .bb-month-picker, #bb [bb-events] .bb-month-picker {
     margin-left: -15px;
     margin-right: -15px;
@@ -7740,9 +7736,8 @@ Copyright (c) 2014 Daniel Eden
       display: table; }
     #bb #bb-event-list .bb-month-picker:after, #bb [bb-events] .bb-month-picker:after {
       clear: both; }
-    #bb #bb-event-list .bb-month-picker .bb-month-nav, #bb [bb-events] .bb-month-picker .bb-month-nav {
-      text-align: center;
-      padding-top: 100px;
+    #bb #bb-event-list .bb-month-picker .bb-month-nav-prev, #bb #bb-event-list .bb-month-picker .bb-month-nav-next, #bb [bb-events] .bb-month-picker .bb-month-nav-prev, #bb [bb-events] .bb-month-picker .bb-month-nav-next {
+      padding-top: 117px;
       position: relative;
       float: left;
       width: 16.66667%;
@@ -7754,9 +7749,13 @@ Copyright (c) 2014 Daniel Eden
       padding-left: 15px;
       padding-right: 15px; }
       @media (min-width: 992px) {
-        #bb #bb-event-list .bb-month-picker .bb-month-nav, #bb [bb-events] .bb-month-picker .bb-month-nav {
+        #bb #bb-event-list .bb-month-picker .bb-month-nav-prev, #bb #bb-event-list .bb-month-picker .bb-month-nav-next, #bb [bb-events] .bb-month-picker .bb-month-nav-prev, #bb [bb-events] .bb-month-picker .bb-month-nav-next {
           float: left;
           width: 8.33333%; } }
+    #bb #bb-event-list .bb-month-picker .bb-month-nav-prev, #bb [bb-events] .bb-month-picker .bb-month-nav-prev {
+      text-align: right; }
+    #bb #bb-event-list .bb-month-picker .bb-month-nav-next, #bb [bb-events] .bb-month-picker .bb-month-nav-next {
+      text-align: left; }
     #bb #bb-event-list .bb-month-picker .bb-months, #bb [bb-events] .bb-month-picker .bb-months {
       position: relative;
       float: left;
@@ -7827,7 +7826,29 @@ Copyright (c) 2014 Daniel Eden
       border-top: none;
       margin-bottom: 0; }
     #bb #bb-event-list .bb-events-list .panel-body, #bb [bb-events] .bb-events-list .panel-body {
-      padding: 15px 0; }
+      padding: 20px 0; }
+    #bb #bb-event-list .bb-events-list .event-title, #bb [bb-events] .bb-events-list .event-title {
+      margin: 10px 0; }
+      #bb #bb-event-list .bb-events-list .event-title h3, #bb [bb-events] .bb-events-list .event-title h3 {
+        margin: 0; }
+    #bb #bb-event-list .bb-events-list .event-details, #bb [bb-events] .bb-events-list .event-details {
+      margin-bottom: 10px; }
+      @media (max-width: 767px) {
+        #bb #bb-event-list .bb-events-list .event-details, #bb [bb-events] .bb-events-list .event-details {
+          margin-top: 10px; } }
+      #bb #bb-event-list .bb-events-list .event-details ul li, #bb [bb-events] .bb-events-list .event-details ul li {
+        padding-bottom: 5px; }
+      #bb #bb-event-list .bb-events-list .event-details .bb-icon, #bb [bb-events] .bb-events-list .event-details .bb-icon {
+        margin-right: 5px; }
+      #bb #bb-event-list .bb-events-list .event-details .glyphicon, #bb [bb-events] .bb-events-list .event-details .glyphicon {
+        margin-right: 5px; }
+    @media (min-width: 768px) {
+      #bb #bb-event-list .bb-events-list .event-description, #bb [bb-events] .bb-events-list .event-description {
+        max-height: 50px;
+        overflow: hidden; } }
+    @media (max-width: 767px) {
+      #bb #bb-event-list .bb-events-list .event-description, #bb [bb-events] .bb-events-list .event-description {
+        margin-bottom: 10px; } }
     #bb #bb-event-list .bb-events-list .bb-event-card, #bb [bb-events] .bb-events-list .bb-event-card {
       min-height: 140px; }
     #bb #bb-event-list .bb-events-list .event-summary-list, #bb [bb-events] .bb-events-list .event-summary-list {
@@ -7839,9 +7860,16 @@ Copyright (c) 2014 Daniel Eden
     text-decoration: none; }
   #bb #bb-event-list .bb-filters .panel:last-child, #bb [bb-events] .bb-filters .panel:last-child {
     margin-bottom: 0; }
+  #bb #bb-event-list .bb-filters .panel-body, #bb [bb-events] .bb-filters .panel-body {
+    padding-bottom: 5px; }
   #bb #bb-event-list .bb-filters .panel-group:last-child, #bb [bb-events] .bb-filters .panel-group:last-child {
     margin-bottom: 0; }
   #bb #bb-event-list .bb-filters .panel-heading, #bb [bb-events] .bb-filters .panel-heading {
+    background-image: -webkit-linear-gradient(top, #fff 0%, #eff3e9 100%);
+    background-image: -o-linear-gradient(top, #fff 0%, #eff3e9 100%);
+    background-image: linear-gradient(to bottom, #fff 0%, #eff3e9 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFFFF', endColorstr='#FFEFF3E9', GradientType=0);
     text-align: center;
     padding: 15px;
     cursor: pointer; }
@@ -7854,11 +7882,102 @@ Copyright (c) 2014 Daniel Eden
   #bb #bb-event-list .bb-filters .date-picker, #bb [bb-events] .bb-filters .date-picker {
     width: 240px;
     margin-right: 0; }
+    #bb #bb-event-list .bb-filters .date-picker .btn-default, #bb [bb-events] .bb-filters .date-picker .btn-default {
+      background-image: -webkit-linear-gradient(top, #fff 0%, #eff3e9 100%);
+      background-image: -o-linear-gradient(top, #fff 0%, #eff3e9 100%);
+      background-image: linear-gradient(to bottom, #fff 0%, #eff3e9 100%);
+      background-repeat: repeat-x;
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFFFF', endColorstr='#FFEFF3E9', GradientType=0); }
+    #bb #bb-event-list .bb-filters .date-picker input, #bb [bb-events] .bb-filters .date-picker input {
+      background-color: #FFF; }
     #bb #bb-event-list .bb-filters .date-picker table, #bb [bb-events] .bb-filters .date-picker table {
       outline: none; }
     @media (max-width: 767px) {
       #bb #bb-event-list .bb-filters .date-picker, #bb [bb-events] .bb-filters .date-picker {
         width: 100%; } }
+  #bb #bb-event-list .bb-filters .btn-link, #bb [bb-events] .bb-filters .btn-link {
+    color: #000; }
+    #bb #bb-event-list .bb-filters .btn-link:hover, #bb #bb-event-list .bb-filters .btn-link:active, #bb #bb-event-list .bb-filters .btn-link:focus, #bb [bb-events] .bb-filters .btn-link:hover, #bb [bb-events] .bb-filters .btn-link:active, #bb [bb-events] .bb-filters .btn-link:focus {
+      color: #000; }
+  #bb #bb-event-list .bb-filter-summary, #bb [bb-events] .bb-filter-summary {
+    margin-bottom: 0;
+    border-top: none;
+    padding: 10px 0;
+    font-size: 1.125em;
+    line-height: 30px; }
+    #bb #bb-event-list .bb-filter-summary .panel-body, #bb [bb-events] .bb-filter-summary .panel-body {
+      padding: 0; }
+    #bb #bb-event-list .bb-filter-summary span, #bb [bb-events] .bb-filter-summary span {
+      margin-left: 5px; }
+      #bb #bb-event-list .bb-filter-summary span .btn-icon, #bb [bb-events] .bb-filter-summary span .btn-icon {
+        font-size: 1.25em;
+        margin-left: 5px; }
+        #bb #bb-event-list .bb-filter-summary span .btn-icon[disabled], #bb [bb-events] .bb-filter-summary span .btn-icon[disabled] {
+          color: #EEE; }
+  #bb #bb-event-list .event-img, #bb [bb-events] .event-img {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    background-size: cover;
+    background-position: center;
+    min-height: 150px;
+    padding: 5px; }
+  #bb #bb-event-list time.icon, #bb [bb-events] time.icon {
+    font-size: 1em;
+    /* change icon size */
+    display: block;
+    position: relative;
+    width: 7em;
+    height: 7em;
+    color: white;
+    margin: 20px auto;
+    border-radius: 20em; }
+    #bb #bb-event-list time.icon *, #bb [bb-events] time.icon * {
+      display: block;
+      width: 100%;
+      font-size: 1em;
+      font-weight: bold;
+      font-style: normal;
+      text-align: center;
+      opacity: 1; }
+    #bb #bb-event-list time.icon em, #bb [bb-events] time.icon em {
+      position: absolute;
+      top: 1.5em;
+      padding: 0.4em 0;
+      font-size: 0.75em; }
+    #bb #bb-event-list time.icon strong, #bb [bb-events] time.icon strong {
+      position: absolute;
+      font-size: 0.8em;
+      bottom: 1.6em; }
+    #bb #bb-event-list time.icon span, #bb [bb-events] time.icon span {
+      position: absolute;
+      top: 0.7em;
+      width: 100%;
+      font-size: 2.75em;
+      letter-spacing: -0.025em; }
+    #bb #bb-event-list time.icon .time, #bb [bb-events] time.icon .time {
+      padding-top: 4px;
+      opacity: 0;
+      transition: opacity .125s ease-in-out;
+      -moz-transition: opacity .125s ease-in-out;
+      -webkit-transition: opacity .125s ease-in-out; }
+    #bb #bb-event-list time.icon:hover .time, #bb #bb-event-list time.icon:focus .time, #bb [bb-events] time.icon:hover .time, #bb [bb-events] time.icon:focus .time {
+      opacity: 1; }
+    #bb #bb-event-list time.icon:hover .date, #bb #bb-event-list time.icon:focus .date, #bb [bb-events] time.icon:hover .date, #bb [bb-events] time.icon:focus .date {
+      opacity: 0;
+      transition: opacity .125s ease-in-out;
+      -moz-transition: opacity .125s ease-in-out;
+      -webkit-transition: opacity .125s ease-in-out; }
+    #bb #bb-event-list time.icon[ng-click], #bb [bb-events] time.icon[ng-click] {
+      cursor: pointer; }
+    #bb #bb-event-list time.icon .date, #bb [bb-events] time.icon .date {
+      padding-top: 3px; }
+  #bb #bb-event-list .event-img time, #bb [bb-events] .event-img time {
+    background-color: rgba(83, 86, 90, 0.6);
+    transition: background-color .5s ease-in-out;
+    -moz-transition: background-color .5s ease-in-out;
+    -webkit-transition: background-color .5s ease-in-out; }
+  #bb #bb-event-list .event-img:hover time, #bb [bb-events] .event-img:hover time {
+    background-color: rgba(83, 86, 90, 0.9); }
   #bb .search-form-wrapper {
     margin: 10px 0 15px 0; }
     #bb .search-form-wrapper .form-group {
@@ -7926,6 +8045,8 @@ Copyright (c) 2014 Daniel Eden
     margin-bottom: 45px; }
   #bb #bb-event .event-description, #bb div[bb-event] .event-description, #bb .event .event-description {
     margin-bottom: 0; }
+  #bb #bb-event .heading, #bb div[bb-event] .heading, #bb .event .heading {
+    margin-top: 15px; }
   #bb #bb-event .ticket-list li, #bb div[bb-event] .ticket-list li, #bb .event .ticket-list li {
     padding-bottom: 15px;
     padding-top: 15px;
@@ -7991,12 +8112,23 @@ Copyright (c) 2014 Daniel Eden
     #bb #bb-event.has-image .event-header .event-details, #bb div[bb-event].has-image .event-header .event-details, #bb .event.has-image .event-header .event-details {
       position: absolute;
       bottom: 0;
+      background-color: rgba(83, 86, 90, 0.6);
+      transition: background-color .5s ease-in-out;
+      -moz-transition: background-color .5s ease-in-out;
+      -webkit-transition: background-color .5s ease-in-out;
+      width: 100%;
       color: #FFF;
       padding: 15px; }
       #bb #bb-event.has-image .event-header .event-details h1, #bb div[bb-event].has-image .event-header .event-details h1, #bb .event.has-image .event-header .event-details h1 {
         color: white; }
+    @media (max-width: 767px) {
+      #bb #bb-event.has-image .event-header, #bb div[bb-event].has-image .event-header, #bb .event.has-image .event-header {
+        padding-top: 100%; } }
     #bb #bb-event.has-image .event-header .bb-icon, #bb #bb-event.has-image .event-header .glyphicon, #bb div[bb-event].has-image .event-header .bb-icon, #bb div[bb-event].has-image .event-header .glyphicon, #bb .event.has-image .event-header .bb-icon, #bb .event.has-image .event-header .glyphicon {
-      color: #FFF; }
+      color: #FFF;
+      margin-right: 5px; }
+    #bb #bb-event.has-image .event-header:hover .event-details, #bb div[bb-event].has-image .event-header:hover .event-details, #bb .event.has-image .event-header:hover .event-details {
+      background-color: rgba(83, 86, 90, 0.9); }
   #bb #bb-event .map-canvas, #bb div[bb-event] .map-canvas, #bb .event .map-canvas {
     height: 200px; }
     @media (max-width: 767px) {
