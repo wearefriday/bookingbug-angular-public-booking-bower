@@ -202,8 +202,8 @@
 
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url("fonts/glyphicons-halflings-regular.eot");
-  src: url("fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("fonts/glyphicons-halflings-regular.woff") format("woff"), url("fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); }
+  src: url("//bespoke.bookingbug.com/blink/fonts/glyphicons-halflings-regular.eot");
+  src: url("//bespoke.bookingbug.com/blink/fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("//bespoke.bookingbug.com/blink/fonts/glyphicons-halflings-regular.woff") format("woff"), url("//bespoke.bookingbug.com/blink/fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("//bespoke.bookingbug.com/blink/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); }
 
 #bb .glyphicon {
   position: relative;
@@ -9309,3 +9309,19 @@ Copyright (c) 2014 Daniel Eden
     @media (max-width: 767px) {
       #bb .bb-filters [bb-price-filter] {
         width: 100%; } }
+  #bb .bb-admin-client {
+    text-align: left; }
+    #bb .bb-admin-client .page-intro {
+      text-align: center; }
+    #bb .bb-admin-client .section-title {
+      text-align: center; }
+    #bb .bb-admin-client .bb-button-headers {
+      margin-bottom: 70px;
+      border-bottom: 1px solid #999; }
+      #bb .bb-admin-client .bb-button-headers button {
+        border-color: #bbb;
+        border-radius: 15px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px; }
+    #bb .bb-admin-client tfoot {
+      display: none; }
