@@ -1,6 +1,6 @@
 {
   "name": "bookingbug-angular-public-booking",
-  "version": "0.0.202",
+  "version": "0.0.203",
   "homepage": "https://github.com/BookingBug/bookingbug-angular-public-booking-bower",
   "authors": [
     "Glenn Shoosmith <glenn@bookingbug.com>",
@@ -20,7 +20,7 @@
     "tests"
   ],
   "dependencies": {
-    "bookingbug-angular-core": "0.0.202",
+    "bookingbug-angular-core": "0.0.203",
     "angular-recaptcha": "~2.2.3",
     "angular-slick": "https://github.com/BookingBug/angular-slick.git#~0.2.2"
   },
