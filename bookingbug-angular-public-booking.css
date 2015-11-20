@@ -7737,10 +7737,7 @@ Copyright (c) 2014 Daniel Eden
     #bb #bb-event-list .bb-month-picker:after, #bb [bb-events] .bb-month-picker:after {
       clear: both; }
     #bb #bb-event-list .bb-month-picker .bb-month-nav-prev, #bb #bb-event-list .bb-month-picker .bb-month-nav-next, #bb [bb-events] .bb-month-picker .bb-month-nav-prev, #bb [bb-events] .bb-month-picker .bb-month-nav-next {
-      padding-top: 117px;
       position: relative;
-      float: left;
-      width: 16.66667%;
       min-height: 1px;
       padding-left: 15px;
       padding-right: 15px;
@@ -7748,18 +7745,25 @@ Copyright (c) 2014 Daniel Eden
       min-height: 1px;
       padding-left: 15px;
       padding-right: 15px; }
+      @media (min-width: 767px) {
+        #bb #bb-event-list .bb-month-picker .bb-month-nav-prev, #bb #bb-event-list .bb-month-picker .bb-month-nav-next, #bb [bb-events] .bb-month-picker .bb-month-nav-prev, #bb [bb-events] .bb-month-picker .bb-month-nav-next {
+          padding-top: 107px; } }
+      @media (min-width: 768px) {
+        #bb #bb-event-list .bb-month-picker .bb-month-nav-prev, #bb #bb-event-list .bb-month-picker .bb-month-nav-next, #bb [bb-events] .bb-month-picker .bb-month-nav-prev, #bb [bb-events] .bb-month-picker .bb-month-nav-next {
+          float: left;
+          width: 16.66667%; } }
       @media (min-width: 992px) {
         #bb #bb-event-list .bb-month-picker .bb-month-nav-prev, #bb #bb-event-list .bb-month-picker .bb-month-nav-next, #bb [bb-events] .bb-month-picker .bb-month-nav-prev, #bb [bb-events] .bb-month-picker .bb-month-nav-next {
           float: left;
           width: 8.33333%; } }
-    #bb #bb-event-list .bb-month-picker .bb-month-nav-prev, #bb [bb-events] .bb-month-picker .bb-month-nav-prev {
-      text-align: right; }
-    #bb #bb-event-list .bb-month-picker .bb-month-nav-next, #bb [bb-events] .bb-month-picker .bb-month-nav-next {
-      text-align: left; }
     #bb #bb-event-list .bb-month-picker .bb-months, #bb [bb-events] .bb-month-picker .bb-months {
       position: relative;
       float: left;
-      width: 66.66667%;
+      width: 100%;
+      min-height: 1px;
+      padding-left: 15px;
+      padding-right: 15px;
+      position: relative;
       min-height: 1px;
       padding-left: 15px;
       padding-right: 15px;
@@ -7767,12 +7771,18 @@ Copyright (c) 2014 Daniel Eden
       min-height: 1px;
       padding-left: 15px;
       padding-right: 15px; }
+      @media (min-width: 768px) {
+        #bb #bb-event-list .bb-month-picker .bb-months, #bb [bb-events] .bb-month-picker .bb-months {
+          float: left;
+          width: 66.66667%; } }
       @media (min-width: 992px) {
         #bb #bb-event-list .bb-month-picker .bb-months, #bb [bb-events] .bb-month-picker .bb-months {
           float: left;
           width: 83.33333%; } }
-    #bb #bb-event-list .bb-month-picker .bb-month table, #bb [bb-events] .bb-month-picker .bb-month table {
-      margin: 0 auto; }
+    #bb #bb-event-list .bb-month-picker .bb-month, #bb [bb-events] .bb-month-picker .bb-month {
+      outline: none; }
+      #bb #bb-event-list .bb-month-picker .bb-month table, #bb [bb-events] .bb-month-picker .bb-month table {
+        margin: 0 auto; }
     #bb #bb-event-list .bb-month-picker .slick-disabled, #bb [bb-events] .bb-month-picker .slick-disabled {
       cursor: default;
       opacity: 0.2;
