@@ -6895,6 +6895,9 @@ Copyright (c) 2014 Daniel Eden
       @media (min-width: 768px) {
         #bb .button-group .btn {
           width: auto; } }
+      @media (max-width: 767px) {
+        #bb .button-group .btn {
+          margin-top: 10px; } }
     #bb .button-group.bordered {
       border-top: 1px solid #DDD;
       margin-top: 30px; }
