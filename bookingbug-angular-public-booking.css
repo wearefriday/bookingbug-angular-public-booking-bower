@@ -2724,44 +2724,52 @@ fieldset[disabled]
     color: #fff;
     background-color: #333; }
 
-#bb .btn-primary, #bb #bb-event-list .date-list-item .btn-secondary.selected, #bb [bb-events] .date-list-item .btn-secondary.selected {
+#bb .btn-primary, #bb #bb-event-list .date-list-item .btn-secondary.selected, #bb [bb-events] .date-list-item .btn-secondary.selected, #bb [bb-multi-company-events] .date-list-item .btn-secondary.selected {
   color: #fff;
   background-color: #337ab7;
   border-color: #2e6da4; }
-  #bb .btn-primary:hover, #bb #bb-event-list .date-list-item .btn-secondary.selected:hover, #bb [bb-events] .date-list-item .btn-secondary.selected:hover, #bb .btn-primary:focus, #bb #bb-event-list .date-list-item .btn-secondary.selected:focus, #bb [bb-events] .date-list-item .btn-secondary.selected:focus, #bb .btn-primary.focus, #bb #bb-event-list .date-list-item .focus.btn-secondary.selected, #bb [bb-events] .date-list-item .focus.btn-secondary.selected, #bb .btn-primary:active, #bb #bb-event-list .date-list-item .btn-secondary.selected:active, #bb [bb-events] .date-list-item .btn-secondary.selected:active, #bb .btn-primary.active, #bb #bb-event-list .date-list-item .active.btn-secondary.selected, #bb [bb-events] .date-list-item .active.btn-secondary.selected,
+  #bb .btn-primary:hover, #bb #bb-event-list .date-list-item .btn-secondary.selected:hover, #bb [bb-events] .date-list-item .btn-secondary.selected:hover, #bb [bb-multi-company-events] .date-list-item .btn-secondary.selected:hover, #bb .btn-primary:focus, #bb #bb-event-list .date-list-item .btn-secondary.selected:focus, #bb [bb-events] .date-list-item .btn-secondary.selected:focus, #bb [bb-multi-company-events] .date-list-item .btn-secondary.selected:focus, #bb .btn-primary.focus, #bb #bb-event-list .date-list-item .focus.btn-secondary.selected, #bb [bb-events] .date-list-item .focus.btn-secondary.selected, #bb [bb-multi-company-events] .date-list-item .focus.btn-secondary.selected, #bb .btn-primary:active, #bb #bb-event-list .date-list-item .btn-secondary.selected:active, #bb [bb-events] .date-list-item .btn-secondary.selected:active, #bb [bb-multi-company-events] .date-list-item .btn-secondary.selected:active, #bb .btn-primary.active, #bb #bb-event-list .date-list-item .active.btn-secondary.selected, #bb [bb-events] .date-list-item .active.btn-secondary.selected, #bb [bb-multi-company-events] .date-list-item .active.btn-secondary.selected,
   .open > #bb .btn-primary.dropdown-toggle,
   .open > #bb #bb-event-list .date-list-item .dropdown-toggle.btn-secondary.selected,
-  .open > #bb [bb-events] .date-list-item .dropdown-toggle.btn-secondary.selected {
+  .open > #bb [bb-events] .date-list-item .dropdown-toggle.btn-secondary.selected,
+  .open > #bb [bb-multi-company-events] .date-list-item .dropdown-toggle.btn-secondary.selected {
     color: #fff;
     background-color: #286090;
     border-color: #204d74; }
-  #bb .btn-primary:active, #bb #bb-event-list .date-list-item .btn-secondary.selected:active, #bb [bb-events] .date-list-item .btn-secondary.selected:active, #bb .btn-primary.active, #bb #bb-event-list .date-list-item .active.btn-secondary.selected, #bb [bb-events] .date-list-item .active.btn-secondary.selected,
+  #bb .btn-primary:active, #bb #bb-event-list .date-list-item .btn-secondary.selected:active, #bb [bb-events] .date-list-item .btn-secondary.selected:active, #bb [bb-multi-company-events] .date-list-item .btn-secondary.selected:active, #bb .btn-primary.active, #bb #bb-event-list .date-list-item .active.btn-secondary.selected, #bb [bb-events] .date-list-item .active.btn-secondary.selected, #bb [bb-multi-company-events] .date-list-item .active.btn-secondary.selected,
   .open > #bb .btn-primary.dropdown-toggle,
   .open > #bb #bb-event-list .date-list-item .dropdown-toggle.btn-secondary.selected,
-  .open > #bb [bb-events] .date-list-item .dropdown-toggle.btn-secondary.selected {
+  .open > #bb [bb-events] .date-list-item .dropdown-toggle.btn-secondary.selected,
+  .open > #bb [bb-multi-company-events] .date-list-item .dropdown-toggle.btn-secondary.selected {
     background-image: none; }
-  #bb .btn-primary.disabled, #bb #bb-event-list .date-list-item .disabled.btn-secondary.selected, #bb [bb-events] .date-list-item .disabled.btn-secondary.selected, #bb .btn-primary.disabled:hover, #bb #bb-event-list .date-list-item .disabled.btn-secondary.selected:hover, #bb [bb-events] .date-list-item .disabled.btn-secondary.selected:hover, #bb .btn-primary.disabled:focus, #bb #bb-event-list .date-list-item .disabled.btn-secondary.selected:focus, #bb [bb-events] .date-list-item .disabled.btn-secondary.selected:focus, #bb .btn-primary.disabled.focus, #bb #bb-event-list .date-list-item .disabled.focus.btn-secondary.selected, #bb [bb-events] .date-list-item .disabled.focus.btn-secondary.selected, #bb .btn-primary.disabled:active, #bb #bb-event-list .date-list-item .disabled.btn-secondary.selected:active, #bb [bb-events] .date-list-item .disabled.btn-secondary.selected:active, #bb .btn-primary.disabled.active, #bb #bb-event-list .date-list-item .disabled.active.btn-secondary.selected, #bb [bb-events] .date-list-item .disabled.active.btn-secondary.selected, #bb .btn-primary[disabled], #bb #bb-event-list .date-list-item [disabled].btn-secondary.selected, #bb [bb-events] .date-list-item [disabled].btn-secondary.selected, #bb .btn-primary[disabled]:hover, #bb #bb-event-list .date-list-item [disabled].btn-secondary.selected:hover, #bb [bb-events] .date-list-item [disabled].btn-secondary.selected:hover, #bb .btn-primary[disabled]:focus, #bb #bb-event-list .date-list-item [disabled].btn-secondary.selected:focus, #bb [bb-events] .date-list-item [disabled].btn-secondary.selected:focus, #bb .btn-primary[disabled].focus, #bb #bb-event-list .date-list-item [disabled].focus.btn-secondary.selected, #bb [bb-events] .date-list-item [disabled].focus.btn-secondary.selected, #bb .btn-primary[disabled]:active, #bb #bb-event-list .date-list-item [disabled].btn-secondary.selected:active, #bb [bb-events] .date-list-item [disabled].btn-secondary.selected:active, #bb .btn-primary[disabled].active, #bb #bb-event-list .date-list-item [disabled].active.btn-secondary.selected, #bb [bb-events] .date-list-item [disabled].active.btn-secondary.selected,
+  #bb .btn-primary.disabled, #bb #bb-event-list .date-list-item .disabled.btn-secondary.selected, #bb [bb-events] .date-list-item .disabled.btn-secondary.selected, #bb [bb-multi-company-events] .date-list-item .disabled.btn-secondary.selected, #bb .btn-primary.disabled:hover, #bb #bb-event-list .date-list-item .disabled.btn-secondary.selected:hover, #bb [bb-events] .date-list-item .disabled.btn-secondary.selected:hover, #bb [bb-multi-company-events] .date-list-item .disabled.btn-secondary.selected:hover, #bb .btn-primary.disabled:focus, #bb #bb-event-list .date-list-item .disabled.btn-secondary.selected:focus, #bb [bb-events] .date-list-item .disabled.btn-secondary.selected:focus, #bb [bb-multi-company-events] .date-list-item .disabled.btn-secondary.selected:focus, #bb .btn-primary.disabled.focus, #bb #bb-event-list .date-list-item .disabled.focus.btn-secondary.selected, #bb [bb-events] .date-list-item .disabled.focus.btn-secondary.selected, #bb [bb-multi-company-events] .date-list-item .disabled.focus.btn-secondary.selected, #bb .btn-primary.disabled:active, #bb #bb-event-list .date-list-item .disabled.btn-secondary.selected:active, #bb [bb-events] .date-list-item .disabled.btn-secondary.selected:active, #bb [bb-multi-company-events] .date-list-item .disabled.btn-secondary.selected:active, #bb .btn-primary.disabled.active, #bb #bb-event-list .date-list-item .disabled.active.btn-secondary.selected, #bb [bb-events] .date-list-item .disabled.active.btn-secondary.selected, #bb [bb-multi-company-events] .date-list-item .disabled.active.btn-secondary.selected, #bb .btn-primary[disabled], #bb #bb-event-list .date-list-item [disabled].btn-secondary.selected, #bb [bb-events] .date-list-item [disabled].btn-secondary.selected, #bb [bb-multi-company-events] .date-list-item [disabled].btn-secondary.selected, #bb .btn-primary[disabled]:hover, #bb #bb-event-list .date-list-item [disabled].btn-secondary.selected:hover, #bb [bb-events] .date-list-item [disabled].btn-secondary.selected:hover, #bb [bb-multi-company-events] .date-list-item [disabled].btn-secondary.selected:hover, #bb .btn-primary[disabled]:focus, #bb #bb-event-list .date-list-item [disabled].btn-secondary.selected:focus, #bb [bb-events] .date-list-item [disabled].btn-secondary.selected:focus, #bb [bb-multi-company-events] .date-list-item [disabled].btn-secondary.selected:focus, #bb .btn-primary[disabled].focus, #bb #bb-event-list .date-list-item [disabled].focus.btn-secondary.selected, #bb [bb-events] .date-list-item [disabled].focus.btn-secondary.selected, #bb [bb-multi-company-events] .date-list-item [disabled].focus.btn-secondary.selected, #bb .btn-primary[disabled]:active, #bb #bb-event-list .date-list-item [disabled].btn-secondary.selected:active, #bb [bb-events] .date-list-item [disabled].btn-secondary.selected:active, #bb [bb-multi-company-events] .date-list-item [disabled].btn-secondary.selected:active, #bb .btn-primary[disabled].active, #bb #bb-event-list .date-list-item [disabled].active.btn-secondary.selected, #bb [bb-events] .date-list-item [disabled].active.btn-secondary.selected, #bb [bb-multi-company-events] .date-list-item [disabled].active.btn-secondary.selected,
   fieldset[disabled] #bb .btn-primary,
   fieldset[disabled] #bb #bb-event-list .date-list-item .btn-secondary.selected,
   fieldset[disabled] #bb [bb-events] .date-list-item .btn-secondary.selected,
+  fieldset[disabled] #bb [bb-multi-company-events] .date-list-item .btn-secondary.selected,
   fieldset[disabled] #bb .btn-primary:hover,
   fieldset[disabled] #bb #bb-event-list .date-list-item .btn-secondary.selected:hover,
   fieldset[disabled] #bb [bb-events] .date-list-item .btn-secondary.selected:hover,
+  fieldset[disabled] #bb [bb-multi-company-events] .date-list-item .btn-secondary.selected:hover,
   fieldset[disabled] #bb .btn-primary:focus,
   fieldset[disabled] #bb #bb-event-list .date-list-item .btn-secondary.selected:focus,
   fieldset[disabled] #bb [bb-events] .date-list-item .btn-secondary.selected:focus,
+  fieldset[disabled] #bb [bb-multi-company-events] .date-list-item .btn-secondary.selected:focus,
   fieldset[disabled] #bb .btn-primary.focus,
   fieldset[disabled] #bb #bb-event-list .date-list-item .focus.btn-secondary.selected,
   fieldset[disabled] #bb [bb-events] .date-list-item .focus.btn-secondary.selected,
+  fieldset[disabled] #bb [bb-multi-company-events] .date-list-item .focus.btn-secondary.selected,
   fieldset[disabled] #bb .btn-primary:active,
   fieldset[disabled] #bb #bb-event-list .date-list-item .btn-secondary.selected:active,
   fieldset[disabled] #bb [bb-events] .date-list-item .btn-secondary.selected:active,
+  fieldset[disabled] #bb [bb-multi-company-events] .date-list-item .btn-secondary.selected:active,
   fieldset[disabled] #bb .btn-primary.active,
   fieldset[disabled] #bb #bb-event-list .date-list-item .active.btn-secondary.selected,
-  fieldset[disabled] #bb [bb-events] .date-list-item .active.btn-secondary.selected {
+  fieldset[disabled] #bb [bb-events] .date-list-item .active.btn-secondary.selected,
+  fieldset[disabled] #bb [bb-multi-company-events] .date-list-item .active.btn-secondary.selected {
     background-color: #337ab7;
     border-color: #2e6da4; }
-  #bb .btn-primary .badge, #bb #bb-event-list .date-list-item .btn-secondary.selected .badge, #bb [bb-events] .date-list-item .btn-secondary.selected .badge {
+  #bb .btn-primary .badge, #bb #bb-event-list .date-list-item .btn-secondary.selected .badge, #bb [bb-events] .date-list-item .btn-secondary.selected .badge, #bb [bb-multi-company-events] .date-list-item .btn-secondary.selected .badge {
     color: #337ab7;
     background-color: #fff; }
 
@@ -8764,9 +8772,9 @@ Copyright (c) 2014 Daniel Eden
         width: 50%; } }
     #bb .event-group .panel-default .panel-body {
       padding: 0px; }
-    #bb .event-group .panel-default .btn-primary, #bb .event-group .panel-default #bb-event-list .date-list-item .btn-secondary.selected, #bb #bb-event-list .date-list-item .event-group .panel-default .btn-secondary.selected, #bb .event-group .panel-default [bb-events] .date-list-item .btn-secondary.selected, #bb [bb-events] .date-list-item .event-group .panel-default .btn-secondary.selected {
+    #bb .event-group .panel-default .btn-primary, #bb .event-group .panel-default #bb-event-list .date-list-item .btn-secondary.selected, #bb #bb-event-list .date-list-item .event-group .panel-default .btn-secondary.selected, #bb .event-group .panel-default [bb-events] .date-list-item .btn-secondary.selected, #bb [bb-events] .date-list-item .event-group .panel-default .btn-secondary.selected, #bb .event-group .panel-default [bb-multi-company-events] .date-list-item .btn-secondary.selected, #bb [bb-multi-company-events] .date-list-item .event-group .panel-default .btn-secondary.selected {
       color: #000; }
-    #bb .event-group .panel-default .btn-primary:hover, #bb .event-group .panel-default #bb-event-list .date-list-item .btn-secondary.selected:hover, #bb #bb-event-list .date-list-item .event-group .panel-default .btn-secondary.selected:hover, #bb .event-group .panel-default [bb-events] .date-list-item .btn-secondary.selected:hover, #bb [bb-events] .date-list-item .event-group .panel-default .btn-secondary.selected:hover {
+    #bb .event-group .panel-default .btn-primary:hover, #bb .event-group .panel-default #bb-event-list .date-list-item .btn-secondary.selected:hover, #bb #bb-event-list .date-list-item .event-group .panel-default .btn-secondary.selected:hover, #bb .event-group .panel-default [bb-events] .date-list-item .btn-secondary.selected:hover, #bb [bb-events] .date-list-item .event-group .panel-default .btn-secondary.selected:hover, #bb .event-group .panel-default [bb-multi-company-events] .date-list-item .btn-secondary.selected:hover, #bb [bb-multi-company-events] .date-list-item .event-group .panel-default .btn-secondary.selected:hover {
       background-color: #000;
       color: #d33826; }
     #bb .event-group .panel-default .item-name {
@@ -8786,7 +8794,7 @@ Copyright (c) 2014 Daniel Eden
       background: #000; }
     #bb .event-group .panel-default .service-select {
       background: #000; }
-  #bb .event-group .panel-default:hover .btn-primary, #bb .event-group .panel-default:hover #bb-event-list .date-list-item .btn-secondary.selected, #bb #bb-event-list .date-list-item .event-group .panel-default:hover .btn-secondary.selected, #bb .event-group .panel-default:hover [bb-events] .date-list-item .btn-secondary.selected, #bb [bb-events] .date-list-item .event-group .panel-default:hover .btn-secondary.selected {
+  #bb .event-group .panel-default:hover .btn-primary, #bb .event-group .panel-default:hover #bb-event-list .date-list-item .btn-secondary.selected, #bb #bb-event-list .date-list-item .event-group .panel-default:hover .btn-secondary.selected, #bb .event-group .panel-default:hover [bb-events] .date-list-item .btn-secondary.selected, #bb [bb-events] .date-list-item .event-group .panel-default:hover .btn-secondary.selected, #bb .event-group .panel-default:hover [bb-multi-company-events] .date-list-item .btn-secondary.selected, #bb [bb-multi-company-events] .date-list-item .event-group .panel-default:hover .btn-secondary.selected {
     background-color: #000;
     color: #d33826; }
   #bb .event-group .panel-default:hover .item-desc {
@@ -8795,39 +8803,40 @@ Copyright (c) 2014 Daniel Eden
     opacity: .6;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
     filter: alpha(opacity=60); }
-  #bb #bb-event-list .date-chooser-heading, #bb [bb-events] .date-chooser-heading {
+  #bb #bb-event-list .date-chooser-heading, #bb [bb-events] .date-chooser-heading, #bb [bb-multi-company-events] .date-chooser-heading {
     margin-bottom: 30px; }
-  #bb #bb-event-list .date-chooser, #bb [bb-events] .date-chooser {
+  #bb #bb-event-list .date-chooser, #bb [bb-events] .date-chooser, #bb [bb-multi-company-events] .date-chooser {
     margin: 0 0 20px 0; }
-  #bb #bb-event-list .date-list-item, #bb [bb-events] .date-list-item {
+  #bb #bb-event-list .date-list-item, #bb [bb-events] .date-list-item, #bb [bb-multi-company-events] .date-list-item {
     display: inline-block;
     padding-right: 10px;
     padding-bottom: 10px; }
-    #bb #bb-event-list .date-list-item .btn-secondary, #bb [bb-events] .date-list-item .btn-secondary {
+    #bb #bb-event-list .date-list-item .btn-secondary, #bb [bb-events] .date-list-item .btn-secondary, #bb [bb-multi-company-events] .date-list-item .btn-secondary {
       width: 120px; }
-  #bb #bb-event-list .event-list-heading, #bb [bb-events] .event-list-heading {
+  #bb #bb-event-list .event-list-heading, #bb [bb-events] .event-list-heading, #bb [bb-multi-company-events] .event-list-heading {
     padding-top: 10px;
     margin-bottom: 20px; }
-  #bb #bb-event-list .event-datetime, #bb [bb-events] .event-datetime {
+  #bb #bb-event-list .event-datetime, #bb [bb-events] .event-datetime, #bb [bb-multi-company-events] .event-datetime {
     text-transform: uppercase; }
-    #bb #bb-event-list .event-datetime .event-date, #bb [bb-events] .event-datetime .event-date {
+    #bb #bb-event-list .event-datetime .event-date, #bb [bb-events] .event-datetime .event-date, #bb [bb-multi-company-events] .event-datetime .event-date {
       font-size: 0.8em;
       display: block; }
-    #bb #bb-event-list .event-datetime .event-time, #bb [bb-events] .event-datetime .event-time {
+    #bb #bb-event-list .event-datetime .event-time, #bb [bb-events] .event-datetime .event-time, #bb [bb-multi-company-events] .event-datetime .event-time {
       font-size: 1.7em; }
-  #bb #bb-event-list .bb-month-picker, #bb [bb-events] .bb-month-picker {
+  #bb #bb-event-list .bb-month-picker, #bb [bb-events] .bb-month-picker, #bb [bb-multi-company-events] .bb-month-picker {
     margin-left: -15px;
     margin-right: -15px;
     margin-top: 10px;
     overflow: hidden; }
-    #bb #bb-event-list .bb-month-picker:before, #bb #bb-event-list .bb-month-picker:after, #bb [bb-events] .bb-month-picker:before, #bb [bb-events] .bb-month-picker:after {
+    #bb #bb-event-list .bb-month-picker:before, #bb #bb-event-list .bb-month-picker:after, #bb [bb-events] .bb-month-picker:before, #bb [bb-events] .bb-month-picker:after, #bb [bb-multi-company-events] .bb-month-picker:before, #bb [bb-multi-company-events] .bb-month-picker:after {
       content: " ";
       display: table; }
-    #bb #bb-event-list .bb-month-picker:after, #bb [bb-events] .bb-month-picker:after {
+    #bb #bb-event-list .bb-month-picker:after, #bb [bb-events] .bb-month-picker:after, #bb [bb-multi-company-events] .bb-month-picker:after {
       clear: both; }
     #bb #bb-event-list .bb-month-picker .bb-month-nav-prev,
     #bb #bb-event-list .bb-month-picker .bb-month-nav-next, #bb [bb-events] .bb-month-picker .bb-month-nav-prev,
-    #bb [bb-events] .bb-month-picker .bb-month-nav-next {
+    #bb [bb-events] .bb-month-picker .bb-month-nav-next, #bb [bb-multi-company-events] .bb-month-picker .bb-month-nav-prev,
+    #bb [bb-multi-company-events] .bb-month-picker .bb-month-nav-next {
       position: relative;
       min-height: 1px;
       padding-left: 15px;
@@ -8839,21 +8848,28 @@ Copyright (c) 2014 Daniel Eden
       @media (min-width: 767px) {
         #bb #bb-event-list .bb-month-picker .bb-month-nav-prev,
         #bb #bb-event-list .bb-month-picker .bb-month-nav-next, #bb [bb-events] .bb-month-picker .bb-month-nav-prev,
-        #bb [bb-events] .bb-month-picker .bb-month-nav-next {
+        #bb [bb-events] .bb-month-picker .bb-month-nav-next, #bb [bb-multi-company-events] .bb-month-picker .bb-month-nav-prev,
+        #bb [bb-multi-company-events] .bb-month-picker .bb-month-nav-next {
           padding-top: 107px; } }
       @media (min-width: 768px) {
         #bb #bb-event-list .bb-month-picker .bb-month-nav-prev,
         #bb #bb-event-list .bb-month-picker .bb-month-nav-next, #bb [bb-events] .bb-month-picker .bb-month-nav-prev,
-        #bb [bb-events] .bb-month-picker .bb-month-nav-next {
+        #bb [bb-events] .bb-month-picker .bb-month-nav-next, #bb [bb-multi-company-events] .bb-month-picker .bb-month-nav-prev,
+        #bb [bb-multi-company-events] .bb-month-picker .bb-month-nav-next {
           float: left;
           width: 16.66667%; } }
       @media (min-width: 992px) {
         #bb #bb-event-list .bb-month-picker .bb-month-nav-prev,
         #bb #bb-event-list .bb-month-picker .bb-month-nav-next, #bb [bb-events] .bb-month-picker .bb-month-nav-prev,
-        #bb [bb-events] .bb-month-picker .bb-month-nav-next {
+        #bb [bb-events] .bb-month-picker .bb-month-nav-next, #bb [bb-multi-company-events] .bb-month-picker .bb-month-nav-prev,
+        #bb [bb-multi-company-events] .bb-month-picker .bb-month-nav-next {
           float: left;
           width: 8.33333%; } }
-    #bb #bb-event-list .bb-month-picker .bb-months, #bb [bb-events] .bb-month-picker .bb-months {
+    #bb #bb-event-list .bb-month-picker .bb-month-nav-prev, #bb [bb-events] .bb-month-picker .bb-month-nav-prev, #bb [bb-multi-company-events] .bb-month-picker .bb-month-nav-prev {
+      text-align: right; }
+    #bb #bb-event-list .bb-month-picker .bb-month-nav-next, #bb [bb-events] .bb-month-picker .bb-month-nav-next, #bb [bb-multi-company-events] .bb-month-picker .bb-month-nav-next {
+      text-align: left; }
+    #bb #bb-event-list .bb-month-picker .bb-months, #bb [bb-events] .bb-month-picker .bb-months, #bb [bb-multi-company-events] .bb-month-picker .bb-months {
       position: relative;
       float: left;
       width: 100%;
@@ -8869,35 +8885,36 @@ Copyright (c) 2014 Daniel Eden
       padding-left: 15px;
       padding-right: 15px; }
       @media (min-width: 768px) {
-        #bb #bb-event-list .bb-month-picker .bb-months, #bb [bb-events] .bb-month-picker .bb-months {
+        #bb #bb-event-list .bb-month-picker .bb-months, #bb [bb-events] .bb-month-picker .bb-months, #bb [bb-multi-company-events] .bb-month-picker .bb-months {
           float: left;
           width: 66.66667%; } }
       @media (min-width: 992px) {
-        #bb #bb-event-list .bb-month-picker .bb-months, #bb [bb-events] .bb-month-picker .bb-months {
+        #bb #bb-event-list .bb-month-picker .bb-months, #bb [bb-events] .bb-month-picker .bb-months, #bb [bb-multi-company-events] .bb-month-picker .bb-months {
           float: left;
           width: 83.33333%; } }
-    #bb #bb-event-list .bb-month-picker .bb-month, #bb [bb-events] .bb-month-picker .bb-month {
+    #bb #bb-event-list .bb-month-picker .bb-month, #bb [bb-events] .bb-month-picker .bb-month, #bb [bb-multi-company-events] .bb-month-picker .bb-month {
       outline: none; }
-      #bb #bb-event-list .bb-month-picker .bb-month table, #bb [bb-events] .bb-month-picker .bb-month table {
+      #bb #bb-event-list .bb-month-picker .bb-month table, #bb [bb-events] .bb-month-picker .bb-month table, #bb [bb-multi-company-events] .bb-month-picker .bb-month table {
         margin: 0 auto; }
-    #bb #bb-event-list .bb-month-picker .slick-disabled, #bb [bb-events] .bb-month-picker .slick-disabled {
+    #bb #bb-event-list .bb-month-picker .slick-disabled, #bb [bb-events] .bb-month-picker .slick-disabled, #bb [bb-multi-company-events] .bb-month-picker .slick-disabled {
       cursor: default;
       opacity: 0.2;
       cursor: false;
       pointer-events: none;
       filter: alpha(opacity=20); }
-    #bb #bb-event-list .bb-month-picker td, #bb [bb-events] .bb-month-picker td {
+    #bb #bb-event-list .bb-month-picker td, #bb [bb-events] .bb-month-picker td, #bb [bb-multi-company-events] .bb-month-picker td {
       text-align: center;
       padding: 1px;
       height: 36px;
       width: 36px;
       font-family: Arial, sans-serif; }
-      #bb #bb-event-list .bb-month-picker td.past, #bb #bb-event-list .bb-month-picker td.disabled, #bb [bb-events] .bb-month-picker td.past, #bb [bb-events] .bb-month-picker td.disabled {
-        color: #AAA; }
-      #bb #bb-event-list .bb-month-picker td.available, #bb [bb-events] .bb-month-picker td.available {
+      #bb #bb-event-list .bb-month-picker td.past, #bb #bb-event-list .bb-month-picker td.disabled, #bb [bb-events] .bb-month-picker td.past, #bb [bb-events] .bb-month-picker td.disabled, #bb [bb-multi-company-events] .bb-month-picker td.past, #bb [bb-multi-company-events] .bb-month-picker td.disabled {
+        color: #AAA;
+        cursor: auto; }
+      #bb #bb-event-list .bb-month-picker td.available, #bb [bb-events] .bb-month-picker td.available, #bb [bb-multi-company-events] .bb-month-picker td.available {
         cursor: pointer;
         color: #FFF; }
-        #bb #bb-event-list .bb-month-picker td.available .circle, #bb [bb-events] .bb-month-picker td.available .circle {
+        #bb #bb-event-list .bb-month-picker td.available .circle, #bb [bb-events] .bb-month-picker td.available .circle, #bb [bb-multi-company-events] .bb-month-picker td.available .circle {
           background-color: #0b57a2;
           border: none;
           border-radius: 50%;
@@ -8905,73 +8922,79 @@ Copyright (c) 2014 Daniel Eden
           height: 30px;
           width: 30px;
           text-align: center; }
-          #bb #bb-event-list .bb-month-picker td.available .circle:hover, #bb [bb-events] .bb-month-picker td.available .circle:hover {
+          #bb #bb-event-list .bb-month-picker td.available .circle:hover, #bb [bb-events] .bb-month-picker td.available .circle:hover, #bb [bb-multi-company-events] .bb-month-picker td.available .circle:hover {
             background-color: #97badb; }
-      #bb #bb-event-list .bb-month-picker td.selected.available .circle, #bb [bb-events] .bb-month-picker td.selected.available .circle {
+      #bb #bb-event-list .bb-month-picker td.available.disabled, #bb [bb-events] .bb-month-picker td.available.disabled, #bb [bb-multi-company-events] .bb-month-picker td.available.disabled {
+        cursor: auto; }
+      #bb #bb-event-list .bb-month-picker td.disabled.available .circle, #bb [bb-events] .bb-month-picker td.disabled.available .circle, #bb [bb-multi-company-events] .bb-month-picker td.disabled.available .circle {
+        background-color: transparent;
+        color: #AAA;
+        cursor: auto; }
+      #bb #bb-event-list .bb-month-picker td.selected.available .circle, #bb [bb-events] .bb-month-picker td.selected.available .circle, #bb [bb-multi-company-events] .bb-month-picker td.selected.available .circle {
         background-color: #19a973; }
-    #bb #bb-event-list .bb-month-picker th, #bb [bb-events] .bb-month-picker th {
+    #bb #bb-event-list .bb-month-picker th, #bb [bb-events] .bb-month-picker th, #bb [bb-multi-company-events] .bb-month-picker th {
       margin: 0;
       text-align: center; }
-      #bb #bb-event-list .bb-month-picker th.months, #bb [bb-events] .bb-month-picker th.months {
+      #bb #bb-event-list .bb-month-picker th.months, #bb [bb-events] .bb-month-picker th.months, #bb [bb-multi-company-events] .bb-month-picker th.months {
         padding-bottom: 10px; }
-      #bb #bb-event-list .bb-month-picker th.days, #bb [bb-events] .bb-month-picker th.days {
+      #bb #bb-event-list .bb-month-picker th.days, #bb [bb-events] .bb-month-picker th.days, #bb [bb-multi-company-events] .bb-month-picker th.days {
         font-weight: normal; }
-  #bb #bb-event-list .bb-events-list, #bb [bb-events] .bb-events-list {
+  #bb #bb-event-list .bb-events-list, #bb [bb-events] .bb-events-list, #bb [bb-multi-company-events] .bb-events-list {
     min-height: 400px;
     margin-bottom: 15px; }
-    #bb #bb-event-list .bb-events-list .ng-enter, #bb [bb-events] .bb-events-list .ng-enter {
+    #bb #bb-event-list .bb-events-list .ng-enter, #bb [bb-events] .bb-events-list .ng-enter, #bb [bb-multi-company-events] .bb-events-list .ng-enter {
       -webkit-animation: fadeIn 1s;
       -moz-animation: fadeIn 1s;
       -o-animation: fadeIn 1s;
       animation: fadeIn 1s; }
-    #bb #bb-event-list .bb-events-list .ng-leave, #bb [bb-events] .bb-events-list .ng-leave {
+    #bb #bb-event-list .bb-events-list .ng-leave, #bb [bb-events] .bb-events-list .ng-leave, #bb [bb-multi-company-events] .bb-events-list .ng-leave {
       -webkit-animation: fadeOutDown 1s;
       -moz-animation: fadeOutDown 1s;
       -o-animation: fadeOutDown 1s;
       animation: fadeOutDown 1s; }
-    #bb #bb-event-list .bb-events-list .panel, #bb [bb-events] .bb-events-list .panel {
+    #bb #bb-event-list .bb-events-list .panel, #bb [bb-events] .bb-events-list .panel, #bb [bb-multi-company-events] .bb-events-list .panel {
       border-top: none;
       margin-bottom: 0; }
-    #bb #bb-event-list .bb-events-list .panel-body, #bb [bb-events] .bb-events-list .panel-body {
-      padding: 20px 0; }
-    #bb #bb-event-list .bb-events-list .event-title, #bb [bb-events] .bb-events-list .event-title {
+    #bb #bb-event-list .bb-events-list .panel-body, #bb [bb-events] .bb-events-list .panel-body, #bb [bb-multi-company-events] .bb-events-list .panel-body {
+      padding: 20px; }
+    #bb #bb-event-list .bb-events-list .event-title, #bb [bb-events] .bb-events-list .event-title, #bb [bb-multi-company-events] .bb-events-list .event-title {
       margin: 10px 0; }
-      #bb #bb-event-list .bb-events-list .event-title h3, #bb [bb-events] .bb-events-list .event-title h3 {
+      #bb #bb-event-list .bb-events-list .event-title h3, #bb [bb-events] .bb-events-list .event-title h3, #bb [bb-multi-company-events] .bb-events-list .event-title h3 {
         margin: 0; }
-    #bb #bb-event-list .bb-events-list .event-details, #bb [bb-events] .bb-events-list .event-details {
+    #bb #bb-event-list .bb-events-list .event-details, #bb [bb-events] .bb-events-list .event-details, #bb [bb-multi-company-events] .bb-events-list .event-details {
       margin-bottom: 10px; }
       @media (max-width: 767px) {
-        #bb #bb-event-list .bb-events-list .event-details, #bb [bb-events] .bb-events-list .event-details {
+        #bb #bb-event-list .bb-events-list .event-details, #bb [bb-events] .bb-events-list .event-details, #bb [bb-multi-company-events] .bb-events-list .event-details {
           margin-top: 10px; } }
-      #bb #bb-event-list .bb-events-list .event-details ul li, #bb [bb-events] .bb-events-list .event-details ul li {
+      #bb #bb-event-list .bb-events-list .event-details ul li, #bb [bb-events] .bb-events-list .event-details ul li, #bb [bb-multi-company-events] .bb-events-list .event-details ul li {
         padding-bottom: 5px; }
-      #bb #bb-event-list .bb-events-list .event-details .bb-icon, #bb [bb-events] .bb-events-list .event-details .bb-icon {
+      #bb #bb-event-list .bb-events-list .event-details .bb-icon, #bb [bb-events] .bb-events-list .event-details .bb-icon, #bb [bb-multi-company-events] .bb-events-list .event-details .bb-icon {
         margin-right: 5px; }
-      #bb #bb-event-list .bb-events-list .event-details .glyphicon, #bb [bb-events] .bb-events-list .event-details .glyphicon {
+      #bb #bb-event-list .bb-events-list .event-details .glyphicon, #bb [bb-events] .bb-events-list .event-details .glyphicon, #bb [bb-multi-company-events] .bb-events-list .event-details .glyphicon {
         margin-right: 5px; }
     @media (min-width: 768px) {
-      #bb #bb-event-list .bb-events-list .event-description, #bb [bb-events] .bb-events-list .event-description {
+      #bb #bb-event-list .bb-events-list .event-description, #bb [bb-events] .bb-events-list .event-description, #bb [bb-multi-company-events] .bb-events-list .event-description {
         max-height: 50px;
         overflow: hidden; } }
     @media (max-width: 767px) {
-      #bb #bb-event-list .bb-events-list .event-description, #bb [bb-events] .bb-events-list .event-description {
+      #bb #bb-event-list .bb-events-list .event-description, #bb [bb-events] .bb-events-list .event-description, #bb [bb-multi-company-events] .bb-events-list .event-description {
         margin-bottom: 10px; } }
-    #bb #bb-event-list .bb-events-list .bb-event-card, #bb [bb-events] .bb-events-list .bb-event-card {
+    #bb #bb-event-list .bb-events-list .bb-event-card, #bb [bb-events] .bb-events-list .bb-event-card, #bb [bb-multi-company-events] .bb-events-list .bb-event-card {
       min-height: 140px; }
-    #bb #bb-event-list .bb-events-list .event-summary-list, #bb [bb-events] .bb-events-list .event-summary-list {
+    #bb #bb-event-list .bb-events-list .event-summary-list, #bb [bb-events] .bb-events-list .event-summary-list, #bb [bb-multi-company-events] .bb-events-list .event-summary-list {
       margin-bottom: 0; }
       @media (max-width: 767px) {
-        #bb #bb-event-list .bb-events-list .event-summary-list, #bb [bb-events] .bb-events-list .event-summary-list {
+        #bb #bb-event-list .bb-events-list .event-summary-list, #bb [bb-events] .bb-events-list .event-summary-list, #bb [bb-multi-company-events] .bb-events-list .event-summary-list {
           margin-bottom: 20px; } }
-  #bb #bb-event-list .bb-filters a, #bb [bb-events] .bb-filters a {
+  #bb #bb-event-list .bb-filters a, #bb [bb-events] .bb-filters a, #bb [bb-multi-company-events] .bb-filters a {
     text-decoration: none; }
-  #bb #bb-event-list .bb-filters .panel:last-child, #bb [bb-events] .bb-filters .panel:last-child {
+  #bb #bb-event-list .bb-filters .panel:last-child, #bb [bb-events] .bb-filters .panel:last-child, #bb [bb-multi-company-events] .bb-filters .panel:last-child {
     margin-bottom: 0; }
-  #bb #bb-event-list .bb-filters .panel-body, #bb [bb-events] .bb-filters .panel-body {
+  #bb #bb-event-list .bb-filters .panel-body, #bb [bb-events] .bb-filters .panel-body, #bb [bb-multi-company-events] .bb-filters .panel-body {
     padding-bottom: 5px; }
-  #bb #bb-event-list .bb-filters .panel-group:last-child, #bb [bb-events] .bb-filters .panel-group:last-child {
+  #bb #bb-event-list .bb-filters .panel-group:last-child, #bb [bb-events] .bb-filters .panel-group:last-child, #bb [bb-multi-company-events] .bb-filters .panel-group:last-child {
     margin-bottom: 0; }
-  #bb #bb-event-list .bb-filters .panel-heading, #bb [bb-events] .bb-filters .panel-heading {
+  #bb #bb-event-list .bb-filters .panel-heading, #bb [bb-events] .bb-filters .panel-heading, #bb [bb-multi-company-events] .bb-filters .panel-heading {
     background-image: -webkit-linear-gradient(top, #fff 0%, #eff3e9 100%);
     background-image: -o-linear-gradient(top, #fff 0%, #eff3e9 100%);
     background-image: linear-gradient(to bottom, #fff 0%, #eff3e9 100%);
@@ -8980,65 +9003,65 @@ Copyright (c) 2014 Daniel Eden
     text-align: center;
     padding: 15px;
     cursor: pointer; }
-    #bb #bb-event-list .bb-filters .panel-heading:hover, #bb [bb-events] .bb-filters .panel-heading:hover {
+    #bb #bb-event-list .bb-filters .panel-heading:hover, #bb [bb-events] .bb-filters .panel-heading:hover, #bb [bb-multi-company-events] .bb-filters .panel-heading:hover {
       background-color: #EEE; }
-  #bb #bb-event-list .bb-filters .panel-title, #bb [bb-events] .bb-filters .panel-title {
+  #bb #bb-event-list .bb-filters .panel-title, #bb [bb-events] .bb-filters .panel-title, #bb [bb-multi-company-events] .bb-filters .panel-title {
     padding-bottom: 0; }
-  #bb #bb-event-list .bb-filters .panel-body, #bb [bb-events] .bb-filters .panel-body {
+  #bb #bb-event-list .bb-filters .panel-body, #bb [bb-events] .bb-filters .panel-body, #bb [bb-multi-company-events] .bb-filters .panel-body {
     padding-bottom: 0; }
-  #bb #bb-event-list .bb-filters .date-picker, #bb [bb-events] .bb-filters .date-picker {
+  #bb #bb-event-list .bb-filters .date-picker, #bb [bb-events] .bb-filters .date-picker, #bb [bb-multi-company-events] .bb-filters .date-picker {
     width: 240px;
     margin-right: 0; }
-    #bb #bb-event-list .bb-filters .date-picker .btn-default, #bb [bb-events] .bb-filters .date-picker .btn-default {
+    #bb #bb-event-list .bb-filters .date-picker .btn-default, #bb [bb-events] .bb-filters .date-picker .btn-default, #bb [bb-multi-company-events] .bb-filters .date-picker .btn-default {
       background-image: -webkit-linear-gradient(top, #fff 0%, #eff3e9 100%);
       background-image: -o-linear-gradient(top, #fff 0%, #eff3e9 100%);
       background-image: linear-gradient(to bottom, #fff 0%, #eff3e9 100%);
       background-repeat: repeat-x;
       filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFFFF', endColorstr='#FFEFF3E9', GradientType=0); }
-    #bb #bb-event-list .bb-filters .date-picker input, #bb [bb-events] .bb-filters .date-picker input {
+    #bb #bb-event-list .bb-filters .date-picker input, #bb [bb-events] .bb-filters .date-picker input, #bb [bb-multi-company-events] .bb-filters .date-picker input {
       background-color: #FFF; }
-    #bb #bb-event-list .bb-filters .date-picker table, #bb [bb-events] .bb-filters .date-picker table {
+    #bb #bb-event-list .bb-filters .date-picker table, #bb [bb-events] .bb-filters .date-picker table, #bb [bb-multi-company-events] .bb-filters .date-picker table {
       outline: none; }
     @media (max-width: 767px) {
-      #bb #bb-event-list .bb-filters .date-picker, #bb [bb-events] .bb-filters .date-picker {
+      #bb #bb-event-list .bb-filters .date-picker, #bb [bb-events] .bb-filters .date-picker, #bb [bb-multi-company-events] .bb-filters .date-picker {
         width: 100%; } }
-  #bb #bb-event-list .bb-filters .btn-link, #bb [bb-events] .bb-filters .btn-link {
+  #bb #bb-event-list .bb-filters .btn-link, #bb [bb-events] .bb-filters .btn-link, #bb [bb-multi-company-events] .bb-filters .btn-link {
     color: #000; }
-    #bb #bb-event-list .bb-filters .btn-link:hover, #bb #bb-event-list .bb-filters .btn-link:active, #bb #bb-event-list .bb-filters .btn-link:focus, #bb [bb-events] .bb-filters .btn-link:hover, #bb [bb-events] .bb-filters .btn-link:active, #bb [bb-events] .bb-filters .btn-link:focus {
+    #bb #bb-event-list .bb-filters .btn-link:hover, #bb #bb-event-list .bb-filters .btn-link:active, #bb #bb-event-list .bb-filters .btn-link:focus, #bb [bb-events] .bb-filters .btn-link:hover, #bb [bb-events] .bb-filters .btn-link:active, #bb [bb-events] .bb-filters .btn-link:focus, #bb [bb-multi-company-events] .bb-filters .btn-link:hover, #bb [bb-multi-company-events] .bb-filters .btn-link:active, #bb [bb-multi-company-events] .bb-filters .btn-link:focus {
       color: #000; }
-  #bb #bb-event-list .bb-filter-summary, #bb [bb-events] .bb-filter-summary {
+  #bb #bb-event-list .bb-filter-summary, #bb [bb-events] .bb-filter-summary, #bb [bb-multi-company-events] .bb-filter-summary {
     margin-bottom: 0;
     border-top: none;
     padding: 10px 0;
     font-size: 1.125em;
     line-height: 30px; }
-    #bb #bb-event-list .bb-filter-summary .panel-body, #bb [bb-events] .bb-filter-summary .panel-body {
+    #bb #bb-event-list .bb-filter-summary .panel-body, #bb [bb-events] .bb-filter-summary .panel-body, #bb [bb-multi-company-events] .bb-filter-summary .panel-body {
       padding: 0; }
-    #bb #bb-event-list .bb-filter-summary span, #bb [bb-events] .bb-filter-summary span {
+    #bb #bb-event-list .bb-filter-summary span, #bb [bb-events] .bb-filter-summary span, #bb [bb-multi-company-events] .bb-filter-summary span {
       margin-left: 5px; }
-      #bb #bb-event-list .bb-filter-summary span .btn-icon, #bb [bb-events] .bb-filter-summary span .btn-icon {
+      #bb #bb-event-list .bb-filter-summary span .btn-icon, #bb [bb-events] .bb-filter-summary span .btn-icon, #bb [bb-multi-company-events] .bb-filter-summary span .btn-icon {
         font-size: 1.25em;
         margin-left: 5px; }
-        #bb #bb-event-list .bb-filter-summary span .btn-icon[disabled], #bb [bb-events] .bb-filter-summary span .btn-icon[disabled] {
+        #bb #bb-event-list .bb-filter-summary span .btn-icon[disabled], #bb [bb-events] .bb-filter-summary span .btn-icon[disabled], #bb [bb-multi-company-events] .bb-filter-summary span .btn-icon[disabled] {
           color: #EEE; }
-  #bb #bb-event-list .event-img, #bb [bb-events] .event-img {
+  #bb #bb-event-list .event-img, #bb [bb-events] .event-img, #bb [bb-multi-company-events] .event-img {
     background-color: #f5f5f5;
     border: 1px solid #ddd;
     background-size: cover;
     background-position: center;
     min-height: 150px;
     padding: 5px; }
-  #bb #bb-event-list time.icon, #bb [bb-events] time.icon {
+  #bb #bb-event-list time.icon, #bb [bb-events] time.icon, #bb [bb-multi-company-events] time.icon {
     font-size: 1em;
     /* change icon size */
     display: block;
     position: relative;
-    width: 7em;
-    height: 7em;
+    width: 7.5em;
+    height: 7.5em;
     color: white;
     margin: 20px auto;
     border-radius: 20em; }
-    #bb #bb-event-list time.icon *, #bb [bb-events] time.icon * {
+    #bb #bb-event-list time.icon *, #bb [bb-events] time.icon *, #bb [bb-multi-company-events] time.icon * {
       display: block;
       width: 100%;
       font-size: 1em;
@@ -9046,44 +9069,44 @@ Copyright (c) 2014 Daniel Eden
       font-style: normal;
       text-align: center;
       opacity: 1; }
-    #bb #bb-event-list time.icon em, #bb [bb-events] time.icon em {
+    #bb #bb-event-list time.icon em, #bb [bb-events] time.icon em, #bb [bb-multi-company-events] time.icon em {
       position: absolute;
       top: 1.5em;
       padding: 0.4em 0;
       font-size: 0.75em; }
-    #bb #bb-event-list time.icon strong, #bb [bb-events] time.icon strong {
+    #bb #bb-event-list time.icon strong, #bb [bb-events] time.icon strong, #bb [bb-multi-company-events] time.icon strong {
       position: absolute;
       font-size: 0.8em;
       bottom: 1.6em; }
-    #bb #bb-event-list time.icon span, #bb [bb-events] time.icon span {
+    #bb #bb-event-list time.icon span, #bb [bb-events] time.icon span, #bb [bb-multi-company-events] time.icon span {
       position: absolute;
       top: 0.7em;
       width: 100%;
       font-size: 2.75em;
       letter-spacing: -0.025em; }
-    #bb #bb-event-list time.icon .time, #bb [bb-events] time.icon .time {
+    #bb #bb-event-list time.icon .time, #bb [bb-events] time.icon .time, #bb [bb-multi-company-events] time.icon .time {
       padding-top: 4px;
       opacity: 0;
       transition: opacity .125s ease-in-out;
       -moz-transition: opacity .125s ease-in-out;
       -webkit-transition: opacity .125s ease-in-out; }
-    #bb #bb-event-list time.icon:hover .time, #bb #bb-event-list time.icon:focus .time, #bb [bb-events] time.icon:hover .time, #bb [bb-events] time.icon:focus .time {
+    #bb #bb-event-list time.icon:hover .time, #bb #bb-event-list time.icon:focus .time, #bb [bb-events] time.icon:hover .time, #bb [bb-events] time.icon:focus .time, #bb [bb-multi-company-events] time.icon:hover .time, #bb [bb-multi-company-events] time.icon:focus .time {
       opacity: 1; }
-    #bb #bb-event-list time.icon:hover .date, #bb #bb-event-list time.icon:focus .date, #bb [bb-events] time.icon:hover .date, #bb [bb-events] time.icon:focus .date {
+    #bb #bb-event-list time.icon:hover .date, #bb #bb-event-list time.icon:focus .date, #bb [bb-events] time.icon:hover .date, #bb [bb-events] time.icon:focus .date, #bb [bb-multi-company-events] time.icon:hover .date, #bb [bb-multi-company-events] time.icon:focus .date {
       opacity: 0;
       transition: opacity .125s ease-in-out;
       -moz-transition: opacity .125s ease-in-out;
       -webkit-transition: opacity .125s ease-in-out; }
-    #bb #bb-event-list time.icon[ng-click], #bb [bb-events] time.icon[ng-click] {
+    #bb #bb-event-list time.icon[ng-click], #bb [bb-events] time.icon[ng-click], #bb [bb-multi-company-events] time.icon[ng-click] {
       cursor: pointer; }
-    #bb #bb-event-list time.icon .date, #bb [bb-events] time.icon .date {
+    #bb #bb-event-list time.icon .date, #bb [bb-events] time.icon .date, #bb [bb-multi-company-events] time.icon .date {
       padding-top: 3px; }
-  #bb #bb-event-list .event-img time, #bb [bb-events] .event-img time {
+  #bb #bb-event-list .event-img time, #bb [bb-events] .event-img time, #bb [bb-multi-company-events] .event-img time {
     background-color: rgba(83, 86, 90, 0.6);
     transition: background-color .5s ease-in-out;
     -moz-transition: background-color .5s ease-in-out;
     -webkit-transition: background-color .5s ease-in-out; }
-  #bb #bb-event-list .event-img:hover time, #bb [bb-events] .event-img:hover time {
+  #bb #bb-event-list .event-img:hover time, #bb [bb-events] .event-img:hover time, #bb [bb-multi-company-events] .event-img:hover time {
     background-color: rgba(83, 86, 90, 0.9); }
   #bb .search-form-wrapper {
     margin: 10px 0 15px 0; }
