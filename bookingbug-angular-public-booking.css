@@ -8633,7 +8633,8 @@ Copyright (c) 2014 Daniel Eden
     #bb .calendar .panel-body, #bb div[bb-time-ranges] .panel-body {
       padding: 0; }
     #bb .calendar .panel-title, #bb div[bb-time-ranges] .panel-title {
-      font-size: inherit; }
+      font-size: inherit;
+      padding-bottom: 0; }
     #bb .calendar .period-label, #bb div[bb-time-ranges] .period-label {
       display: block;
       text-transform: uppercase;
@@ -8646,6 +8647,10 @@ Copyright (c) 2014 Daniel Eden
       #bb .calendar .time-slot:hover, #bb .calendar .time-slot.selected, #bb div[bb-time-ranges] .time-slot:hover, #bb div[bb-time-ranges] .time-slot.selected {
         background-color: #333;
         color: #FFF; }
+    #bb .calendar .period-label-icon, #bb div[bb-time-ranges] .period-label-icon {
+      width: 10px;
+      text-align: center;
+      display: inline-block; }
     #bb .calendar .panel-group .panel.expanded, #bb div[bb-time-ranges] .panel-group .panel.expanded {
       background-color: #EEE; }
     #bb .calendar .panel-group .panel.selected, #bb div[bb-time-ranges] .panel-group .panel.selected {
@@ -8662,6 +8667,22 @@ Copyright (c) 2014 Daniel Eden
         display: none; }
       #bb .calendar .panel-default[disabled] .panel-title, #bb .calendar .panel[disabled].expanded .panel-title, #bb div[bb-time-ranges] .panel-default[disabled] .panel-title, #bb div[bb-time-ranges] .panel[disabled].expanded .panel-title {
         color: #CCC; }
+    @media (max-width: 1199px) {
+      #bb .calendar .cal-col-6, #bb .calendar .cal-col-7, #bb div[bb-time-ranges] .cal-col-6, #bb div[bb-time-ranges] .cal-col-7 {
+        display: none; }
+      #bb .calendar .cal-col-1, #bb .calendar .cal-col-2, #bb .calendar .cal-col-3, #bb .calendar .cal-col-4, #bb .calendar .cal-col-5, #bb div[bb-time-ranges] .cal-col-1, #bb div[bb-time-ranges] .cal-col-2, #bb div[bb-time-ranges] .cal-col-3, #bb div[bb-time-ranges] .cal-col-4, #bb div[bb-time-ranges] .cal-col-5 {
+        width: 17.99%; } }
+    @media (max-width: 991px) {
+      #bb .calendar .cal-col-6, #bb .calendar .cal-col-7, #bb .calendar .cal-col-4, #bb .calendar .cal-col-5, #bb div[bb-time-ranges] .cal-col-6, #bb div[bb-time-ranges] .cal-col-7, #bb div[bb-time-ranges] .cal-col-4, #bb div[bb-time-ranges] .cal-col-5 {
+        display: none; }
+      #bb .calendar .cal-col-1, #bb .calendar .cal-col-2, #bb .calendar .cal-col-3, #bb div[bb-time-ranges] .cal-col-1, #bb div[bb-time-ranges] .cal-col-2, #bb div[bb-time-ranges] .cal-col-3 {
+        width: 29.98%; } }
+    @media (max-width: 767px) {
+      #bb .calendar .cal-col-1, #bb div[bb-time-ranges] .cal-col-1 {
+        width: 100%;
+        padding: 0; }
+      #bb .calendar .cal-col-2, #bb .calendar .cal-col-3, #bb .calendar .cal-col-4, #bb .calendar .cal-col-5, #bb div[bb-time-ranges] .cal-col-2, #bb div[bb-time-ranges] .cal-col-3, #bb div[bb-time-ranges] .cal-col-4, #bb div[bb-time-ranges] .cal-col-5 {
+        display: none; } }
     #bb .calendar .actions, #bb div[bb-time-ranges] .actions {
       text-align: right; }
       @media (max-width: 767px) {
