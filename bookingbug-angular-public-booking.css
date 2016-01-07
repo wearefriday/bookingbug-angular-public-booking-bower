@@ -8736,7 +8736,7 @@ Copyright (c) 2014 Daniel Eden
     margin-top: 30px; }
   #bb .bb-checkout .bb-confirmation-p-alignment, #bb div[bb-checkout] .bb-confirmation-p-alignment {
     margin-bottom: 5px; }
-  #bb .bb-checkout .bb-checkout-pay-button-div, #bb div[bb-checkout] .bb-checkout-pay-button-div {
+  #bb .bb-checkout .bb-checkout-pay-button, #bb div[bb-checkout] .bb-checkout-pay-button {
     text-align: right;
     padding-top: 20px;
     padding-bottom: 20px;
