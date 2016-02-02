@@ -7796,6 +7796,11 @@ Copyright (c) 2014 Daniel Eden
   font-weight: normal;
   font-style: normal; }
 
+@font-face {
+  font-family: 'FontAwesome';
+  src: url("fonts/fontawesome-webfont.woff");
+  src: url("fonts/fontawesome-webfont.woff2") format("woff2"), url("fonts/fontawesome-webfont.eot"), url("fonts/FontAwesome.otf"), url("fonts/fontawesome-webfont.ttf") format("truetype"), url("fonts/fontawesome-webfont.svg#svgFontName") format("svg"); }
+
 .bb-icon {
   font-family: 'bb-icons';
   speak: none;
@@ -8688,6 +8693,40 @@ Copyright (c) 2014 Daniel Eden
       @media (max-width: 767px) {
         #bb .calendar .actions, #bb div[bb-time-ranges] .actions {
           padding-right: 20px; } }
+  #bb [datepicker-popup-wrap] {
+    padding: 10px; }
+  #bb [datepicker]:active, #bb [datepicker]:focus {
+    outline: none;
+    border: none; }
+  #bb [datepicker] table:active, #bb [datepicker] table:focus {
+    outline: none;
+    border: none; }
+  #bb [datepicker] table th {
+    padding: 2px; }
+  #bb [datepicker] table button {
+    background: transparent;
+    border-radius: 0px;
+    border: solid 1px #ddd;
+    color: #777; }
+    #bb [datepicker] table button:disabled {
+      opacity: .5; }
+    #bb [datepicker] table button span {
+      color: #777; }
+  #bb [datepicker] table button.btn-default {
+    background-color: transparent; }
+    #bb [datepicker] table button.btn-default:hover, #bb [datepicker] table button.btn-default:active, #bb [datepicker] table button.btn-default:focus {
+      background-color: #e6e6e6;
+      border-color: #adadad;
+      color: #777; }
+  #bb [datepicker] table button.btn-info {
+    background-color: #31b0d5;
+    border-color: #269abc; }
+    #bb [datepicker] table button.btn-info span {
+      color: #fff; }
+    #bb [datepicker] table button.btn-info:hover, #bb [datepicker] table button.btn-info:active, #bb [datepicker] table button.btn-info:focus {
+      background-color: #31b0d5; }
+      #bb [datepicker] table button.btn-info:hover span, #bb [datepicker] table button.btn-info:active span, #bb [datepicker] table button.btn-info:focus span {
+        color: #fff; }
   #bb .confirmation-summary-container {
     margin-bottom: 60px; }
   #bb .confirmation-header, #bb .confirmation-change-options {
@@ -9389,3 +9428,9 @@ Copyright (c) 2014 Daniel Eden
         border-bottom-right-radius: 0px; }
     #bb .bb-admin-client tfoot {
       display: none; }
+  #bb .popover span {
+    color: #777;
+    cursor: pointer;
+    padding-top: 5px; }
+    #bb .popover span:hover {
+      text-decoration: underline; }
