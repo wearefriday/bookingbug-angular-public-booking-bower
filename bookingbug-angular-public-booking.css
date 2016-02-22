@@ -6727,6 +6727,8 @@ Copyright (c) 2014 Daniel Eden
   color: #000000;
   background-color: #FFFFFF;
   margin: 0;
+  /* .summary-list used in survey only*/
+  /* Only used in the basket_wallet.html */
   /**
  * 	Angular RangeSlider SCSS
  * 
@@ -7011,14 +7013,6 @@ Copyright (c) 2014 Daniel Eden
     #bb .vertical-row-align {
       display: flex;
       align-items: center; } }
-  #bb .bb-list {
-    margin-top: 0; }
-  #bb .bb-list li {
-    border-bottom: 1px solid #CCCCCC;
-    padding: 10px 0;
-    margin: 0; }
-    #bb .bb-list li:last-child {
-      border: none; }
   #bb .summary-list {
     margin-bottom: 20px;
     line-height: 1.4; }
@@ -7129,19 +7123,8 @@ Copyright (c) 2014 Daniel Eden
     margin: 20px 0 25px 0;
     padding-bottom: 0;
     border-bottom: none; }
-  #bb .page-heading-wrapper {
-    margin: 0 0 10px 0; }
-  #bb .page-heading {
-    font-size: 28px;
-    padding: 0;
-    display: inline;
-    border-bottom: none; }
-  #bb .page-sub-heading {
-    font-size: 16px; }
   #bb .page-intro, #bb .page-summary {
     margin-bottom: 30px; }
-  #bb .seperator {
-    margin: 30px 0; }
   #bb #loading_icon {
     height: 100%;
     position: fixed;
@@ -7171,8 +7154,6 @@ Copyright (c) 2014 Daniel Eden
         text-align: center; } }
   #bb .text-block {
     margin-bottom: 20px; }
-  #bb .bb-member {
-    font-size: 16px; }
   #bb .bb-section-title {
     border-bottom: 1px solid #666;
     padding-bottom: 10px;
@@ -7199,11 +7180,6 @@ Copyright (c) 2014 Daniel Eden
       float: none;
       display: table-cell;
       vertical-align: middle; } }
-  #bb .bb-thankyou-focus {
-    margin: 10% 3% 10%; }
-    #bb .bb-thankyou-focus h2 {
-      text-align: center;
-      margin: 10% 3% 10%; }
   #bb .angular-google-map-container {
     height: 200px; }
   #bb .ngrs-range-slider {
@@ -7599,6 +7575,11 @@ Copyright (c) 2014 Daniel Eden
       @media (max-width: 767px) {
         #bb .calendar .actions, #bb div[bb-time-ranges] .actions {
           padding-right: 20px; } }
+  #bb .calendar .day.navigation .btn-icon span.glyphicon {
+    font-size: 40px;
+    width: 100%; }
+  #bb .calendar .day.navigation button {
+    width: 100%; }
   #bb [datepicker-popup-wrap] {
     padding: 10px; }
   #bb [datepicker]:active, #bb [datepicker]:focus {
@@ -7633,9 +7614,7 @@ Copyright (c) 2014 Daniel Eden
       background-color: #31b0d5; }
       #bb [datepicker] table button.btn-info:hover span, #bb [datepicker] table button.btn-info:active span, #bb [datepicker] table button.btn-info:focus span {
         color: #fff; }
-  #bb .confirmation-summary-container {
-    margin-bottom: 60px; }
-  #bb .confirmation-header, #bb .confirmation-change-options {
+  #bb .confirmation-header {
     font-size: 16px;
     text-align: center; }
   #bb .confirmation-heading {
@@ -7653,23 +7632,6 @@ Copyright (c) 2014 Daniel Eden
     margin-bottom: 10px; }
     #bb .address-item:last-child {
       margin-bottom: 0; }
-  #bb .booking-export {
-    padding-bottom: 20px; }
-  #bb .print {
-    padding-top: 5px;
-    text-align: right; }
-  #bb .calendar-export {
-    font-size: 16px;
-    line-height: 42px; }
-  #bb .calendar-export-label {
-    padding-right: 10px; }
-  #bb .btn-change-booking {
-    margin: 0 auto; }
-  #bb .manage-booking {
-    border-top: 1px solid #999;
-    padding: 20px 0; }
-  #bb .bookings-details {
-    margin-bottom: 300px; }
   #bb .move-done-msg {
     color: green; }
   #bb .bb-checkout a, #bb div[bb-checkout] a {
@@ -7691,8 +7653,6 @@ Copyright (c) 2014 Daniel Eden
     padding: 20px 10px 10px 10px; }
     #bb .bb-checkout .bb-message p, #bb div[bb-checkout] .bb-message p {
       margin: 10px 0 5px; }
-  #bb .bb-confirmation-no-border-below {
-    border-bottom: none; }
   #bb .angular-google-map-container {
     height: 200px; }
   #bb .bb-booking-export {
