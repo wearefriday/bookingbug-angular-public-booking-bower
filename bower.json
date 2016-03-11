@@ -1,6 +1,6 @@
 {
 	"name": "bookingbug-angular-public-booking",
-	"version": "0.0.328",
+	"version": "0.0.329",
 	"homepage": "https://github.com/BookingBug/bookingbug-angular-public-booking-bower",
 	"authors": [
 		"Glenn Shoosmith <glenn@bookingbug.com>",
@@ -20,7 +20,7 @@
 		"tests"
 	],
 	"dependencies": {
-		"bookingbug-angular-core": "0.0.328",
+		"bookingbug-angular-core": "0.0.329",
 		"angular-recaptcha": "~2.2.3"
 	},
 	"resolutions": {
