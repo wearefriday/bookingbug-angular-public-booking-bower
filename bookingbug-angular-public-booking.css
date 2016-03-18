@@ -2226,7 +2226,7 @@
 
 #bb input[type="radio"],
 #bb input[type="checkbox"] {
-  margin: 9px 0 0;
+  margin: 4px 0 0;
   margin-top: 1px \9;
   line-height: normal; }
 
@@ -7932,10 +7932,6 @@ Copyright (c) 2014 Daniel Eden
   /* line 359, scss/_rangeSlider.scss */
   /* GMAP START */
   /* GMAP END */ }
-  #bb .bb-primary-brand-color {
-    color: #087f94; }
-  #bb .bb-secondary-brand-color {
-    color: bb-secondary-brand-color; }
   #bb h1, #bb h2, #bb h3, #bb h4, #bb h5, #bb h6 {
     padding: 0;
     margin: 0;
@@ -8087,7 +8083,6 @@ Copyright (c) 2014 Daniel Eden
     #bb .error-message:before {
       position: relative;
       top: 1px;
-      padding-right: 7px;
       display: inline-block;
       font-family: 'Glyphicons Halflings';
       font-style: normal;
@@ -8303,14 +8298,6 @@ Copyright (c) 2014 Daniel Eden
       vertical-align: middle; } }
   #bb .angular-google-map-container {
     height: 200px; }
-  #bb div[bb-locale-switcher] {
-    float: right;
-    margin-bottom: 45px; }
-    #bb div[bb-locale-switcher] button {
-      width: 160px; }
-    #bb div[bb-locale-switcher] a {
-      text-decoration: none;
-      cursor: pointer; }
   #bb .ngrs-range-slider {
     position: relative;
     margin: 0 0 8px 0;
@@ -8614,7 +8601,7 @@ Copyright (c) 2014 Daniel Eden
       border-top: 1px #dddddd solid; }
     #bb .calendar .panel-default > .panel-heading, #bb div[bb-time-ranges] .panel-default > .panel-heading {
       background: none;
-      padding: 10px;
+      padding: 15px;
       position: relative;
       cursor: pointer;
       color: inherit; }
@@ -8657,7 +8644,7 @@ Copyright (c) 2014 Daniel Eden
       background: none; }
       #bb .calendar .panel-default[disabled] .panel-heading, #bb .calendar .panel[disabled].expanded .panel-heading, #bb div[bb-time-ranges] .panel-default[disabled] .panel-heading, #bb div[bb-time-ranges] .panel[disabled].expanded .panel-heading {
         cursor: default;
-        padding-bottom: 10px; }
+        padding-bottom: 15px; }
       #bb .calendar .panel-default[disabled] .panel-collapse, #bb .calendar .panel[disabled].expanded .panel-collapse, #bb div[bb-time-ranges] .panel-default[disabled] .panel-collapse, #bb div[bb-time-ranges] .panel[disabled].expanded .panel-collapse {
         display: none; }
       #bb .calendar .panel-default[disabled] .panel-title, #bb .calendar .panel[disabled].expanded .panel-title, #bb div[bb-time-ranges] .panel-default[disabled] .panel-title, #bb div[bb-time-ranges] .panel[disabled].expanded .panel-title {
