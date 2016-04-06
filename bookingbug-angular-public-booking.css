@@ -9352,6 +9352,19 @@ Copyright (c) 2014 Daniel Eden
   #bb #bb-event .gm-style label, #bb div[bb-event] .gm-style label, #bb .event .gm-style label {
     width: auto;
     display: inline; }
+  #bb div[accordion] .panel-heading {
+    padding: 10px 15px 0px 15px; }
+    #bb div[accordion] .panel-heading:hover {
+      cursor: pointer; }
+  #bb div[accordion] .panel-group {
+    margin-bottom: 0; }
+  #bb div[accordion] .panel-default {
+    margin-bottom: 0; }
+  #bb .accordion-bottom-border {
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #ddd; }
   #bb .bb-time td:hover, #bb [bb-times] td:hover {
     background-color: #f1f1f1; }
   #bb .bb-time p.bb-past, #bb [bb-times] p.bb-past {
