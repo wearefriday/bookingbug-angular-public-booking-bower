@@ -7843,7 +7843,7 @@ Copyright (c) 2014 Daniel Eden
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 14px;
-  color: #000000;
+  color: #222222;
   background-color: #FFFFFF;
   margin: 0;
   /* .summary-list used in survey only*/
@@ -8033,6 +8033,8 @@ Copyright (c) 2014 Daniel Eden
     color: #CCC; }
   #bb .form-control::-webkit-input-placeholder, #bb .form-question::-webkit-input-placeholder {
     color: #CCC; }
+  #bb .form-control[disabled] {
+    cursor: default; }
   #bb .bb-question-heading {
     position: relative;
     min-height: 1px;
