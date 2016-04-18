@@ -8117,6 +8117,8 @@ Copyright (c) 2014 Daniel Eden
       #bb .form-inline .form-group {
         padding-right: 0;
         padding-bottom: 0; } }
+  #bb .form-inline .form-group.calendar {
+    height: 51px; }
   #bb .alerts .ng-enter {
     -webkit-animation: fadeIn 1s;
     -moz-animation: fadeIn 1s;
@@ -8278,15 +8280,10 @@ Copyright (c) 2014 Daniel Eden
     margin-bottom: 20px;
     font-size: 24px; }
   #bb .bb-step-navigation {
-    margin-top: 75px;
+    margin-top: 50px;
     margin-bottom: 20px;
-    border-top: 1px solid #999;
+    border-top: 1px solid #ddd;
     padding-top: 20px; }
-    @media (max-width: 767px) {
-      #bb .bb-step-navigation {
-        margin-top: 60px;
-        border-top: 1px solid #666;
-        padding-top: 20px; } }
     @media (max-width: 767px) {
       #bb .bb-step-navigation .btn {
         width: 100%;
@@ -8735,41 +8732,37 @@ Copyright (c) 2014 Daniel Eden
     width: 100%; }
   #bb [datepicker-popup-wrap] {
     padding: 10px; }
-  #bb [datepicker]:active, #bb [datepicker]:focus {
+  #bb [datepicker]:active, #bb [datepicker]:focus, #bb [bb-events] .date-picker:active, #bb [bb-events] .date-picker:focus {
     outline: none;
     border: none; }
-  #bb [datepicker] table:active, #bb [datepicker] table:focus {
+  #bb [datepicker] table:active, #bb [datepicker] table:focus, #bb [bb-events] .date-picker table:active, #bb [bb-events] .date-picker table:focus {
     outline: none;
     border: none; }
-  #bb [datepicker] table th {
+  #bb [datepicker] table th, #bb [bb-events] .date-picker table th {
     padding: 2px; }
-  #bb [datepicker] table button {
+  #bb [datepicker] table button, #bb [bb-events] .date-picker table button {
     background: transparent;
     border-radius: 0px;
     border: solid 1px #ddd;
     color: #777; }
-    #bb [datepicker] table button:disabled {
+    #bb [datepicker] table button:disabled, #bb [bb-events] .date-picker table button:disabled {
       opacity: .5; }
-    #bb [datepicker] table button span {
+    #bb [datepicker] table button span, #bb [bb-events] .date-picker table button span {
       color: #777; }
-  #bb [datepicker] table button.btn-default {
-    background-color: transparent; }
-    #bb [datepicker] table button.btn-default:hover, #bb [datepicker] table button.btn-default:active, #bb [datepicker] table button.btn-default:focus {
-      background-color: #e6e6e6;
-      border-color: #adadad;
-      color: #777; }
-  #bb [datepicker] table button.btn-info {
-    background-color: #31b0d5;
-    border-color: #269abc; }
-    #bb [datepicker] table button.btn-info span {
-      color: #fff; }
-    #bb [datepicker] table button.btn-info:hover, #bb [datepicker] table button.btn-info:active, #bb [datepicker] table button.btn-info:focus {
-      background-color: #31b0d5; }
-      #bb [datepicker] table button.btn-info:hover span, #bb [datepicker] table button.btn-info:active span, #bb [datepicker] table button.btn-info:focus span {
-        color: #fff; }
+  #bb [datepicker] table button.btn-default.active, #bb [bb-events] .date-picker table button.btn-default.active {
+    background-image: linear-gradient(to bottom, #eff3e9 0%, #fff 100%); }
+    #bb [datepicker] table button.btn-default.active span, #bb [bb-events] .date-picker table button.btn-default.active span {
+      font-weight: bold; }
+  #bb [datepicker] table button.btn-default:hover, #bb [datepicker] table button.btn-default:active, #bb [datepicker] table button.btn-default:focus, #bb [bb-events] .date-picker table button.btn-default:hover, #bb [bb-events] .date-picker table button.btn-default:active, #bb [bb-events] .date-picker table button.btn-default:focus {
+    background-image: linear-gradient(to bottom, #eff3e9 0%, #fff 100%);
+    outline: none; }
+    #bb [datepicker] table button.btn-default:hover span, #bb [datepicker] table button.btn-default:active span, #bb [datepicker] table button.btn-default:focus span, #bb [bb-events] .date-picker table button.btn-default:hover span, #bb [bb-events] .date-picker table button.btn-default:active span, #bb [bb-events] .date-picker table button.btn-default:focus span {
+      font-weight: bold; }
   #bb .confirmation-header {
     font-size: 14px;
     text-align: center; }
+    #bb .confirmation-header button:hover, #bb .confirmation-header button:focus {
+      box-shadow: 2px 2px 15px #ddd; }
   #bb .confirmation-heading {
     margin-bottom: 15px; }
   #bb .confirmation-summary {
@@ -8781,6 +8774,17 @@ Copyright (c) 2014 Daniel Eden
       border-top: 1px solid #dddddd; }
   #bb .confirmation-summary-item {
     margin-bottom: 10px; }
+  #bb .confirmation-summary .confirmation-summary-item .bb-summary-label, #bb .confirmation-summary .confirmation-summary-item .bb-summary-value {
+    float: left;
+    min-width: 115px;
+    padding: 0px 15px 5px 15px;
+    color: #555; }
+  #bb .confirmation-summary .confirmation-summary-item .bb-summary-value {
+    width: auto;
+    color: inherit; }
+  #bb .confirmation-summary-address div {
+    padding-top: 5px;
+    font-size: 14px; }
   #bb .address-item {
     margin-bottom: 10px; }
     #bb .address-item:last-child {
@@ -9065,6 +9069,11 @@ Copyright (c) 2014 Daniel Eden
       @media (max-width: 767px) {
         #bb #bb-event-list .bb-events-list .event-summary-list, #bb [bb-events] .bb-events-list .event-summary-list, #bb [bb-multi-company-events] .bb-events-list .event-summary-list {
           margin-bottom: 20px; } }
+    #bb #bb-event-list .bb-events-list .fa, #bb [bb-events] .bb-events-list .fa, #bb [bb-multi-company-events] .bb-events-list .fa {
+      color: #aaa;
+      width: 1.28571429em;
+      font-size: 1.5em;
+      text-align: center; }
   #bb #bb-event-list .bb-filters a, #bb [bb-events] .bb-filters a, #bb [bb-multi-company-events] .bb-filters a {
     text-decoration: none; }
   #bb #bb-event-list .bb-filters .panel:last-child, #bb [bb-events] .bb-filters .panel:last-child, #bb [bb-multi-company-events] .bb-filters .panel:last-child {
@@ -9358,6 +9367,17 @@ Copyright (c) 2014 Daniel Eden
   #bb #bb-event .gm-style label, #bb div[bb-event] .gm-style label, #bb .event .gm-style label {
     width: auto;
     display: inline; }
+  #bb #bb-event .event-details, #bb div[bb-event] .event-details, #bb .event .event-details {
+    padding: 20px; }
+  #bb #bb-event [bb-background-image].event-header, #bb div[bb-event] [bb-background-image].event-header, #bb .event [bb-background-image].event-header {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 300px; }
+    #bb #bb-event [bb-background-image].event-header .fa, #bb div[bb-event] [bb-background-image].event-header .fa, #bb .event [bb-background-image].event-header .fa {
+      font-size: 1.5em;
+      text-align: center;
+      color: #111; }
   #bb div[accordion] .panel-heading {
     padding: 10px 15px 0px 15px; }
     #bb div[accordion] .panel-heading:hover {
