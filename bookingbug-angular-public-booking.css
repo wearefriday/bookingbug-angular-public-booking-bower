@@ -9381,3 +9381,18 @@ Copyright (c) 2014 Daniel Eden
     padding-top: 5px; }
     #bb .popover span:hover {
       text-decoration: underline; }
+  #bb .card {
+    margin: 10px;
+    min-height: 340px;
+    border: 1px solid #ccc;
+    border-radius: 5px; }
+    #bb .card .btn-primary, #bb .card #bb-event-list .date-list-item .btn-secondary.selected, #bb #bb-event-list .date-list-item .card .btn-secondary.selected, #bb .card [bb-events] .date-list-item .btn-secondary.selected, #bb [bb-events] .date-list-item .card .btn-secondary.selected, #bb .card [bb-multi-company-events] .date-list-item .btn-secondary.selected, #bb [bb-multi-company-events] .date-list-item .card .btn-secondary.selected {
+      position: absolute;
+      bottom: 20px;
+      right: 36px; }
+    #bb .card h4 {
+      font-size: 18px;
+      margin: 0px;
+      padding-bottom: 5px; }
+    #bb .card .card-block {
+      padding: 10px; }
