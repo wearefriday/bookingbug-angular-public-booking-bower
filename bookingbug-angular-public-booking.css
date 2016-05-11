@@ -168,8 +168,6 @@
     #bb tr,
     #bb img {
       page-break-inside: avoid; }
-    #bb img {
-      max-width: 100% !important; }
     #bb p,
     #bb h2,
     #bb h3 {
@@ -192,7 +190,9 @@
         background-color: #fff !important; }
     #bb .table-bordered th,
     #bb .table-bordered td {
-      border: 1px solid #ddd !important; } }
+      border: 1px solid #ddd !important; }
+    #bb .angular-google-map-container div a {
+      display: none !important; } }
 
 @font-face {
   font-family: 'Glyphicons Halflings';
@@ -8323,6 +8323,18 @@ Copyright (c) 2014 Daniel Eden
           margin-top: 10px; }
           #bb .bb-summary-list .bb-confirmation-summary-item .bb-summary-value {
             font-weight: bold; } }
+  #bb .bb-list {
+    margin: 0 0 15px 0;
+    padding: 0;
+    list-style-type: none; }
+  #bb .bb-list-horizontal li {
+    display: inline-block;
+    padding: 15px 15px 15px 0; }
+  #bb .bb-list i {
+    padding-right: 5px; }
+  #bb .bb-list-heading {
+    margin: 15px 0 5px 0;
+    font-weight: bold; }
   #bb .bb-bullet-list {
     list-style: disc outside none;
     padding-bottom: 10px;
@@ -8412,6 +8424,9 @@ Copyright (c) 2014 Daniel Eden
       #bb .bb-step-navigation .btn {
         width: 100%;
         margin-bottom: 10px; } }
+  #bb .bb-bordered {
+    border-top: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee; }
   @media (min-width: 768px) {
     #bb .row.bb-vertical-align-center {
       display: table; }
@@ -8556,7 +8571,7 @@ Copyright (c) 2014 Daniel Eden
       border: none;
       border-bottom: 1px #dddddd solid;
       box-shadow: none; }
-    #bb .bb-calendar .panel-group .accordian-group:first-child .panel, #bb [bb-time-ranges] .panel-group .accordian-group:first-child .panel {
+    #bb .bb-calendar .panel-group .accordion-group:first-child .panel, #bb [bb-time-ranges] .panel-group .accordion-group:first-child .panel {
       border-top: 1px #dddddd solid; }
     #bb .bb-calendar .panel-default > .panel-heading, #bb [bb-time-ranges] .panel-default > .panel-heading {
       background: none;
