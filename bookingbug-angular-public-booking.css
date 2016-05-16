@@ -8115,7 +8115,9 @@ Copyright (c) 2014 Daniel Eden
   color: #222222;
   background-color: #FFFFFF;
   margin: 0;
+  /* Bootstrap form-inline enhancements */
   /* .summary-list used in survey only*/
+  /* use to wrap components just as lists */
   /* GMAP START */
   /* GMAP END */ }
   #bb .btn-icon {
@@ -8146,6 +8148,8 @@ Copyright (c) 2014 Daniel Eden
       margin-top: 30px; }
   #bb .btn .fa {
     height: 18px; }
+  #bb .btn.btn-lg .fa, #bb .btn-group-lg > .btn .fa {
+    height: 22px; }
   #bb .form-control::-moz-placeholder, #bb .form-question::-moz-placeholder {
     color: #CCC;
     opacity: 1; }
@@ -8228,15 +8232,13 @@ Copyright (c) 2014 Daniel Eden
   #bb .form-horizontal .checkbox {
     min-height: 0px;
     padding-top: 0px; }
+  #bb .form-inline .bb-label {
+    padding-right: 5px;
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: normal; }
   #bb .form-inline .input-group .input-group-btn {
     width: 1%; }
-  #bb .form-inline .form-group {
-    padding-right: 15px;
-    padding-bottom: 15px; }
-    @media (max-width: 767px) {
-      #bb .form-inline .form-group {
-        padding-right: 0;
-        padding-bottom: 0; } }
   #bb .form-inline .form-group.calendar {
     height: 51px; }
   #bb .alerts .ng-enter {
@@ -8324,23 +8326,41 @@ Copyright (c) 2014 Daniel Eden
           #bb .bb-summary-list .bb-confirmation-summary-item .bb-summary-value {
             font-weight: bold; } }
   #bb .bb-list {
-    margin: 0 0 15px 0;
+    margin: 0;
     padding: 0;
     list-style-type: none; }
-  #bb .bb-list-horizontal li {
-    display: inline-block;
-    padding: 15px 15px 15px 0; }
-  #bb .bb-list i {
-    padding-right: 5px; }
-  #bb .bb-list-heading {
-    margin: 15px 0 5px 0;
-    font-weight: bold; }
+    #bb .bb-list > li {
+      padding-bottom: 15px; }
+    #bb .bb-list > li span.glyphicon {
+      padding-right: 5px; }
+    #bb .bb-list.bb-list-fade-in .ng-enter {
+      -webkit-animation: fadeIn 1s;
+      -moz-animation: fadeIn 1s;
+      -o-animation: fadeIn 1s;
+      animation: fadeIn 1s; }
+    #bb .bb-list.bb-list-banded > li:nth-child(even) {
+      background-color: transparent; }
+    #bb .bb-list.bb-list-banded > li:nth-child(odd) {
+      background-color: #eeeeee; }
+    #bb .bb-list.bb-list-bordered > li:last-child {
+      border-bottom: 1px solid #ddd; }
+    #bb .bb-list.bb-list-bordered > li {
+      padding-top: 15px;
+      border-top: 1px solid #ddd; }
+    #bb .bb-list.bb-list-horizontal > li {
+      display: inline-block;
+      padding: 0 15px 5px 0; }
+    #bb .bb-list .bb-list-heading {
+      margin: 15px 0 5px 0;
+      font-weight: bold; }
+    #bb .bb-list.bb-list-sm > li {
+      padding-bottom: 5px; }
   #bb .bb-bullet-list {
     list-style: disc outside none;
     padding-bottom: 10px;
     padding-left: 15px;
     float: left; }
-    #bb .bb-bullet-list li {
+    #bb .bb-bullet-list > li {
       padding: 0 0 5px 0; }
   #bb .event-summary-list {
     margin-bottom: 5px; }
@@ -8427,6 +8447,14 @@ Copyright (c) 2014 Daniel Eden
   #bb .bb-bordered {
     border-top: 1px solid #eeeeee;
     border-bottom: 1px solid #eeeeee; }
+  #bb .bb-block-heading {
+    padding-bottom: 5px; }
+  #bb .bb-block {
+    padding-top: 15px;
+    padding-bottom: 0;
+    margin-bottom: 15px; }
+    #bb .bb-block.bb-block-sm {
+      padding-bottom: 10px; }
   @media (min-width: 768px) {
     #bb .row.bb-vertical-align-center {
       display: table; }
