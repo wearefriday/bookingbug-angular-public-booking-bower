@@ -8707,6 +8707,8 @@ Copyright (c) 2014 Daniel Eden
     outline: none; }
     #bb [datepicker] table button.btn-default:hover span, #bb [datepicker] table button.btn-default:active span, #bb [datepicker] table button.btn-default:focus span, #bb [bb-events] .date-picker table button.btn-default:hover span, #bb [bb-events] .date-picker table button.btn-default:active span, #bb [bb-events] .date-picker table button.btn-default:focus span {
       font-weight: bold; }
+  #bb .time-slot.disabled {
+    opacity: 0.2; }
   #bb .confirmation-header {
     font-size: 14px;
     text-align: center; }
