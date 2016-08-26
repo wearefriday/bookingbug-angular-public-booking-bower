@@ -235,7 +235,6 @@
 
     .panel:last-child {
       margin-bottom: 0;
-      border-top: 1px solid $bb-border;
     }
 
     .panel-body {
@@ -260,7 +259,11 @@
     .panel-title {
       padding-bottom: 0;
     }
-    
+
+    .panel-body {
+      padding-bottom: 0;
+    }
+
     .date-picker {
       .btn-default {
         @include gradient-vertical(#fff,#eff3e9);
