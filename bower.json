@@ -1,6 +1,6 @@
 {
   "name": "bookingbug-angular-public-booking",
-  "version": "2.0.19",
+  "version": "2.0.20",
   "homepage": "https://github.com/BookingBug/bookingbug-angular-public-booking-bower",
   "authors": [
     "Glenn Shoosmith <glenn@bookingbug.com>",
@@ -21,8 +21,9 @@
     "tests"
   ],
   "dependencies": {
-    "bookingbug-angular-core": "2.0.19",
+    "bookingbug-angular-core": "2.0.20",
     "iframe-resizer": "~3.5.5",
-    "animate.css": "~3.5.2"
+    "animate.css": "~3.5.2",
+    "angular-carousel": "~0.3.13"
   }
 }
