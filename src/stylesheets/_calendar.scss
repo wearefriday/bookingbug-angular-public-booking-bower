@@ -69,8 +69,11 @@
     }
   }
 
-  // panel styling
+  // \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
+  // Panel overrides
+  // \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
   .panel-group {
+
     .panel {
       border-radius: 0;
       margin: 0;
@@ -112,6 +115,10 @@
     padding-bottom: 0;
   }
 
+  .panel-group .panel-heading+.panel-collapse>.panel-body {
+    border-top: none;
+  }
+
   .period-label {
     display: block;
     text-transform: uppercase;
@@ -131,6 +138,9 @@
     padding: 15px 25px;
     cursor: pointer;
     text-align: center;
+    &:hover {
+      cursor: initial;
+    }
     &:hover, &.selected {
       background-color: $gray-darker;
       color: #FFF;
@@ -152,18 +162,28 @@
     background-color: $gray-light;
     color: #FFF;
   }
-  .panel-group .selected .panel{
-    background-color: $gray-light;
-    color: #FFF;
-  }
-
 
   .panel-default.expanded > .panel-heading {
     padding-bottom: 5px;
   }
+  
+  .unavailable-slot {
+    &:hover {
+      cursor: default;
+    }
+  }
+
+  .panel-heading .available-slot {
+    &:hover {
+      cursor: pointer;
+    }
+    &:focus {
+      outline: -webkit-focus-ring-color auto 5px;
+    }
+  }
 
   // disabled panel
-  .panel-default[disabled], .panel[disabled].expanded {
+  .panel-default[disabled], .panel[disabled], .panel[disabled].expanded {
     background: none;
 
     .panel-heading {
@@ -177,28 +197,15 @@
     }
   }
 
-  // disabled panel when using bb-accordion-group
-  [bb-accordion-group] {
-    &[disabled] {
-      & > {
-        .panel-default, .panel.expanded {
-          background: none;
-
-          .panel-heading {
-            cursor: default;
-          }
-          .panel-collapse {
-            display: none;
-          }
-          .panel-title {
-            color: $bb-gray;
-          }
-        }
-      }
+  .accordion-toggle {
+    &:focus {
+      outline: -webkit-focus-ring-color auto 5px;
     }
   }
 
-// calendar hidden column functionality
+// \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
+// Calendar hidden column functionality
+// \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
 @media (max-width: $screen-md-max) {
   .cal-col-6, .cal-col-7{
     display: none;
