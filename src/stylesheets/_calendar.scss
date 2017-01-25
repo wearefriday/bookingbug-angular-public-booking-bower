@@ -69,8 +69,11 @@
     }
   }
 
-  // panel styling
+  // \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
+  // Panel overrides
+  // \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
   .panel-group {
+
     .panel {
       border-radius: 0;
       margin: 0;
@@ -112,6 +115,10 @@
     padding-bottom: 0;
   }
 
+  .panel-group .panel-heading+.panel-collapse>.panel-body {
+    border-top: none;
+  }
+
   .period-label {
     display: block;
     text-transform: uppercase;
@@ -131,9 +138,17 @@
     padding: 15px 25px;
     cursor: pointer;
     text-align: center;
+    &:hover {
+      cursor: initial;
+    }
     &:hover, &.selected {
       background-color: $gray-darker;
       color: #FFF;
+    }
+    &:focus {
+      outline: 0;
+      border: 1px $input-border-focus solid;
+      box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(red($input-border-focus), green($input-border-focus), blue($input-border-focus), .6);
     }
   }
 
@@ -157,8 +172,25 @@
     padding-bottom: 5px;
   }
 
+  .unavailable-slot {
+    &:hover {
+      cursor: default;
+    }
+  }
+
+  .panel-heading .available-slot {
+    &:hover {
+      cursor: pointer;
+    }
+    &:focus {
+      outline: 0;
+      border: 1px $input-border-focus solid;
+      box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(red($input-border-focus), green($input-border-focus), blue($input-border-focus), .6);
+    }
+  }
+
   // disabled panel
-  .panel-default[disabled], .panel[disabled].expanded {
+  .panel-default[disabled], .panel[disabled], .panel[disabled].expanded {
     background: none;
 
     .panel-heading {
@@ -172,7 +204,17 @@
     }
   }
 
-// calendar hidden column functionality
+  .accordion-toggle {
+    &:focus {
+      outline: 0;
+      border: 1px $input-border-focus solid;
+      box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(red($input-border-focus), green($input-border-focus), blue($input-border-focus), .6);
+    }
+  }
+
+// \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
+// Calendar hidden column functionality
+// \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
 @media (max-width: $screen-md-max) {
   .cal-col-6, .cal-col-7{
     display: none;
@@ -216,7 +258,7 @@
 .calendar{
   .day.navigation{
     .btn-icon{
-    span.glyphicon{
+    span.fa{
        font-size: 40px;
        width: 100%;
       }
