@@ -334,3 +334,11 @@
 // \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
 // DATEPICKER DEFAULT SCHEMA end
 // \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
+
+#calendar-grid {
+  table#cal-grid {
+    td {
+      vertical-align: top;
+    }
+  }
+}
