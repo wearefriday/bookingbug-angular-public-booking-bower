@@ -107,10 +107,10 @@
   }
 
   .btn-group {
-      @media (max-width: $screen-xs-max) {
-        margin-top: 10px;
-        margin-bottom: 5px; 
-      }
+    @media (max-width: $screen-xs-max) {
+      margin-top: 10px;
+      margin-bottom: 5px;
+    }
   }
 
 }
@@ -120,9 +120,15 @@
     margin-bottom: 15px;
   }
 
-  .btn-secondary:hover {
-    background-color: #ce1126;
-    color: #FFF;
+  .btn-secondary {
+    &:hover {
+      background-color: #ce1126;
+      color: #FFF;
+    }
+    &.bb-selected {
+      background-color: #ce1126;
+      color: #FFF;
+    }
   }
 
 }
