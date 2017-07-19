@@ -9,6 +9,8 @@ angular.module("BB.Services").config(function ($translateProvider) {
                 NUM_SLOTS_AVAILABLE: "{SLOTS_NUMBER, plural, =0{0 available} =1{1 available} other{{SLOTS_NUMBER} available}}"
             },
             ITEM_DETAILS: {
+                MOVE_BOOKING_SUCCESS_ALERT: "Your booking has been moved to {{datetime | datetime: 'LLLL':true}}",
+                MOVE_BOOKING_FAIL_ALERT: "Failed to move booking. Please try again.",
                 FIELD_REQUIRED: "@:COMMON.FORM.FIELD_REQUIRED"
             },
             ADD_RECIPIENT: {
@@ -45,7 +47,7 @@ angular.module("BB.Services").config(function ($translateProvider) {
             },
             CALENDAR: {
                 NEXT_BTN: "@:COMMON.BTN.NEXT",
-                MOVE_BOOKING_BTN: "Move booking",
+                MOVE_BOOKING_BTN: "@:COMMON.BTN.BOOK",
                 BACK_BTN: "@:COMMON.BTN.BACK"
             },
             CATEGORY: {
