@@ -9,7 +9,7 @@ angular.module("BB.Services").config(function ($translateProvider) {
                 NUM_SLOTS_AVAILABLE: "{SLOTS_NUMBER, plural, =0{0 available} =1{1 available} other{{SLOTS_NUMBER} available}}"
             },
             ITEM_DETAILS: {
-                MOVE_BOOKING_SUCCESS_ALERT: "Your booking has been moved to {{datetime | datetime: 'LLLL'}}",
+                MOVE_BOOKING_SUCCESS_ALERT: "Your booking has been moved to {{datetime | datetime: 'LLLL':true}}",
                 MOVE_BOOKING_FAIL_ALERT: "Failed to move booking. Please try again.",
                 FIELD_REQUIRED: "@:COMMON.FORM.FIELD_REQUIRED"
             },
@@ -344,6 +344,7 @@ angular.module("BB.Services").config(function ($translateProvider) {
                 HIDE_STORES_LBL: "Hide stores with no availability",
                 SERVICE_UNAVAILABLE: "Sorry, but {{name}} is not available at this location",
                 SELECT_BTN: "@:COMMON.BTN.SELECT",
+                CONTINUE: "Continue",
                 STORE_ACCORDION: {
                     SELECT_BTN: "@:COMMON.BTN.SELECT",
                     SERVICE_UNAVAILABLE: "Sorry, but {{name}} is not available at this location"
@@ -361,6 +362,8 @@ angular.module("BB.Services").config(function ($translateProvider) {
             TIME: {
                 PREV_DAY_BTN: "Previous Day",
                 NEXT_DAY_BTN: "Next Day",
+                PREV_DAYS_BTN: "Previous {{num}} days",
+                NEXT_DAYS_BTN: "Next {{num}} days",
                 NO_AVAILABILITY: "No availability",
                 BACK_BTN: "@:COMMON.BTN.BACK",
                 TIME_NOT_SELECTED_ALERT: "Please select a time slot",
