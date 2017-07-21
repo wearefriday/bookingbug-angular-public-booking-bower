@@ -45,7 +45,7 @@ angular.module("BB.Services").config(function ($translateProvider) {
             },
             CALENDAR: {
                 NEXT_BTN: "@:COMMON.BTN.NEXT",
-                MOVE_BOOKING_BTN: "@:COMMON.BTN.MOVE_BOOKING",
+                MOVE_BOOKING_BTN: "Move booking",
                 BACK_BTN: "@:COMMON.BTN.BACK"
             },
             CATEGORY: {
