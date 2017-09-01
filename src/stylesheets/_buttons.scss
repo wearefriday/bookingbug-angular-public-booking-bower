@@ -60,15 +60,7 @@
 
 }
 
-// Close button focus enhancement.
-button.close {
-  // Transparent border not to push elements when focused.
-  border: 1px solid transparent;
-  padding: 4px 9px 5px 9px;
-  border-radius: 5px;
-}
-
-.btn, button.close {
+.btn {
   &:focus, &:active:focus {
     outline: 0;
     border: 1px $input-border-focus solid;
