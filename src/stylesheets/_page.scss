@@ -37,8 +37,7 @@ p {
 }
 
 div {
-  // Not all elements should have border in place of an outline. Borders push out DOM elements.
-  &:focus:not([uib-modal-window], .panel-body){
+  &:focus {
     outline: 0;
     border: 1px $input-border-focus solid;
     box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(red($input-border-focus), green($input-border-focus), blue($input-border-focus), .6);
