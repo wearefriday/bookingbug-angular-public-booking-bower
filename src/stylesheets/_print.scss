@@ -45,13 +45,11 @@
         display: table-header-group; // h5bp.com/t
     }
 
-    tr {
+    tr,
+    img {
         page-break-inside: avoid;
     }
 
-    img {
-        max-width: none !important;
-    }
 
     p,
     h2,
