@@ -152,6 +152,11 @@
     background-color: $gray-light;
     color: #FFF;
   }
+  .panel-group .selected .panel{
+    background-color: $gray-light;
+    color: #FFF;
+  }
+
 
   .panel-default.expanded > .panel-heading {
     padding-bottom: 5px;
@@ -171,6 +176,49 @@
       color: $bb-gray;
     }
   }
+
+  // disabled panel when using bb-accordion-group
+  [bb-accordion-group] {
+    &[disabled] {
+      & > {
+        .panel-default, .panel.expanded {
+          background: none;
+
+          .panel-heading {
+            cursor: default;
+          }
+          .panel-collapse {
+            display: none;
+          }
+          .panel-title {
+            color: $bb-gray;
+          }
+        }
+      }
+    }
+
+    &.expanded {
+      .panel {
+        background-color: $gray-lighter;
+      }
+      .panel-collapse {
+         background-color: $gray-lighter;
+      }
+    }
+
+    &.selected {
+      .panel {
+        background-color: $gray-light;
+        color: #FFF;
+      }
+      .panel-collapse {
+         background-color: $gray-light;
+         color: #FFF;
+      }
+    }
+
+  }
+
 
 // calendar hidden column functionality
 @media (max-width: $screen-md-max) {
