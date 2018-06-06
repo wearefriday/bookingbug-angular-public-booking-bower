@@ -4,10 +4,7 @@
 @import "mixins";
 
 //Font-Awesome path and custom icons
-// need to import fonts locally in project from public booking separately outside of '#bb'
-// otherwise it breaks gulp-bless (needed for IE9 support)
-// Hence, DO NOT uncomment the line below.
-// @import "fonts";
+@import "fonts";
 
 // Print styles
 @import "print";
