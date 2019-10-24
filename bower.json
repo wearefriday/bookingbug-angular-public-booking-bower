@@ -21,7 +21,7 @@
     "tests"
   ],
   "dependencies": {
-    "bookingbug-angular-core": "2.0.44",
+    "wearefriday-bookingbug-angular-core-bower": "2.0.44-pa",
     "iframe-resizer": "~3.5.5",
     "animate.css": "~3.5.2"
   }
